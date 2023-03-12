@@ -1,0 +1,4424 @@
+Package: android-tools-adbd
+Source: android-tools
+Version: 5.1.1.r38-1.1
+Architecture: arm64
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Installed-Size: 133
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.17), libpcre3, libssl1.1 (>= 1.1.0)
+Section: devel
+Priority: extra
+Homepage: https://developer.android.com/tools/help/adb.html
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+Filename: pool/bullseye/main/a/android-tools/android-tools-adbd_5.1.1.r38-1.1_arm64.deb
+MD5sum: bd5ca4573217cd940ef5d234bcfa21ef
+SHA1: 7becf5a9bbeac8df7cdec220fad486081e10db39
+SHA256: 93ba9d9a28c60714cd3934fb0c445c791cf5e6bd898d09a4fb9914a70c4764dd
+SHA512: 2fb50efcccbb6ecfd6c67eca754f4e6d064410313dcb8bd001b7c3151e246606306aa47107b869c7334e72096572033f27007d84c26a9178c02e6b6cbccc55c9
+Size: 50176
+
+Package: dthelper
+Version: 10.0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 2
+Section: admin
+Priority: optional
+Homepage: https://github.com/radxa-pkg/dthelper
+Description: Device tree helper from LibreELEC
+Multi-Arch: foreign
+Replaces: dthelper
+Conflicts: dthelper
+Provides: dthelper
+Filename: pool/bullseye/main/d/dthelper/dthelper_10.0.2-1_all.deb
+MD5sum: e245bf638c4509a7a5240f2a165103b6
+SHA1: 8f49fc29c87e585893a50238614efdfbda3a0265
+SHA256: deb81dc17113eafca0db14408a72429786e8bec41ffc88b7faed23a31a869979
+SHA512: 688d83d0e4894270b5ab7d9f960f08da2c562564cee914d1cf38ff827a0c5a10e28ebd0443b485f9b426630e7fee6a573ba6988859945d91260d64c38b1b9b65
+Size: 2028
+
+Package: libreelec-alsa-utils
+Version: 10.0.2-1
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 4
+Depends: dthelper
+Section: admin
+Priority: optional
+Homepage: https://github.com/radxa-pkg/libreelec-alsa-utils
+Description: ALSA helper from LibreELEC
+Multi-Arch: foreign
+Replaces: libreelec-alsa-utils
+Conflicts: libreelec-alsa-utils
+Provides: libreelec-alsa-utils
+Filename: pool/bullseye/main/libr/libreelec-alsa-utils/libreelec-alsa-utils_10.0.2-1_all.deb
+MD5sum: 4826a6b9fd2a9f16b60ec1b4c3cd4037
+SHA1: abaccc5297115439482725ee387a2cab0f50f731
+SHA256: e99f996470e3c547d7574cc1973b5ede9978f846fc3aff443e19e39fd03a43c1
+SHA512: 8b1752f66697365866f406b7b3535fae61444fa92bbd23e45fdf44269bd449e0bb07bbd6199658392953c85c19aa2bd3404c572a81e5ca7a2e5025b78fbd936e
+Size: 2908
+
+Package: linux-firmware-image-4.4.143-1-rk3308
+Source: linux-4.4.143-1-rk3308
+Version: 4.4.143-1-222447a9
+Architecture: arm64
+Maintainer: Anonymous <root@dafbf47b5eed>
+Installed-Size: 192
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.143-1-rk3308
+ This package contains firmware from the Linux kernel, version 4.4.143-1-rk3308.
+Filename: pool/bullseye/main/l/linux-4.4.143-1-rk3308/linux-firmware-image-4.4.143-1-rk3308_4.4.143-1-222447a9_arm64.deb
+MD5sum: 33cdd6bae736f78f50a0114aa94ffb37
+SHA1: b456d125262cc014251a151393172c2a43c2d6ba
+SHA256: 71939972a59fe831a34ee331cdfbaa6de7a1bbcf022e259a0a4aa691bc22a914
+SHA512: 377aa684d162ea4d8c9f414d213aa585b980e6ecd01a487a820f7b693dbafd7836fd77ea3fd896bf1c5dc1f427ef13f69c387055f519f452afa93b35f52ba84e
+Size: 53284
+
+Package: linux-firmware-image-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 588
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.154-1-rk3399
+ This package contains firmware from the Linux kernel, version 4.4.154-1-rk3399.
+Filename: pool/bullseye/main/l/linux-4.4.154-1-rk3399/linux-firmware-image-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: 7dc3f7f9f7d29a7a9fab2415d2ce4311
+SHA1: a07d5b7ef21fe97d94c132f24b1e62b883679533
+SHA256: 5640d3ea0aea217357dea4b760eef198e41585a77bc049ee437851db8e822dfe
+SHA512: 8395ad90841ddeaaf9214d85ffd72367de35cf7b2c51506808ec9d5054fe7332c77ca6aec9f31728394686164c335d517f3ed7b03ade7e11aec4449296696503
+Size: 186548
+
+Package: linux-firmware-image-4.4.167-1-rk3399pro
+Source: linux-4.4.167-1-rk3399pro
+Version: 4.4.167-1-206ee2c3
+Architecture: arm64
+Maintainer: Anonymous <root@dea14a1e1052>
+Installed-Size: 566
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.167-1-rk3399pro
+ This package contains firmware from the Linux kernel, version 4.4.167-1-rk3399pro.
+Filename: pool/bullseye/main/l/linux-4.4.167-1-rk3399pro/linux-firmware-image-4.4.167-1-rk3399pro_4.4.167-1-206ee2c3_arm64.deb
+MD5sum: bba0cfaef532476907cc9fe37bde030e
+SHA1: 12cd6b8c18f3819c5d867cd7738e41c80202a50e
+SHA256: 2e5bdf0a1b468886f61161221cc88454a73daff82e63da844b72feb45941498c
+SHA512: 4df2df8125c45a976f1d4a2526cb73f8f0bdbd967876c9ab0cdb6404a9f1504d2e52837241caccd4a6eb1ed27175deef92cba7cbeb82f033290340ddb9c1234f
+Size: 177956
+
+Package: linux-firmware-image-4.4.194-1-rk3328
+Source: linux-4.4.194-1-rk3328
+Version: 4.4.194-1-12a18255
+Architecture: arm64
+Maintainer: Anonymous <root@5b9deb8cd894>
+Installed-Size: 529
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.194-1-rk3328
+ This package contains firmware from the Linux kernel, version 4.4.194-1-rk3328.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3328/linux-firmware-image-4.4.194-1-rk3328_4.4.194-1-12a18255_arm64.deb
+MD5sum: 60de48747fe29f7e01bdba661a3c0e5a
+SHA1: a6572fce12ca0a10fb25e681a36d210006a8db39
+SHA256: 08e9d9d4646607b2ea99551d67be06c7dcdc70656f511a3f4574b198b223412a
+SHA512: 14c5248be0e65cab84d262bc58f9ab3945ca1e3cce971b0547135740a07767fcd0825b47b9db1d699f2cd391f8157c5365bc51e8fe8c885420b23c6aafba1b95
+Size: 175644
+
+Package: linux-firmware-image-4.4.194-1-rk3399t
+Source: linux-4.4.194-1-rk3399t
+Version: 4.4.194-1-4e1e1f35
+Architecture: arm64
+Maintainer: Anonymous <root@5f54913aef1c>
+Installed-Size: 529
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel firmware, version 4.4.194-1-rk3399t
+ This package contains firmware from the Linux kernel, version 4.4.194-1-rk3399t.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3399t/linux-firmware-image-4.4.194-1-rk3399t_4.4.194-1-4e1e1f35_arm64.deb
+MD5sum: 280c741b622362d68ac16b45702f67cc
+SHA1: 66636deff6e81653bd6f307b30f3bd6115b0970f
+SHA256: 9f4d3f3374885c4f7759ea42498cd4eb59278d9f303ecec4fd6548704e2718b2
+SHA512: ff63a8adfdad01961a39b1895a47efcc0afd3775b11aef53e40023fd40e59c014cbc6fa5491349f0974fb7e1196ea75116f8e6b1ff28cded1f038aa20a30c170
+Size: 176192
+
+Package: linux-headers-4.4.143-1-rk3308
+Source: linux-4.4.143-1-rk3308
+Version: 4.4.143-1-222447a9
+Architecture: arm64
+Maintainer: Anonymous <root@dafbf47b5eed>
+Installed-Size: 69972
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.143-1-rk3308 on arm64
+ This package provides kernel header files for 4.4.143-1-rk3308 on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.4.143-1-rk3308/linux-headers-4.4.143-1-rk3308_4.4.143-1-222447a9_arm64.deb
+MD5sum: 3d782f4ab94ebdf70bc40a897856bee6
+SHA1: 30a05e69edc0121926f92f82743d0a5e36772b6f
+SHA256: 87fd72eee91ba8ebbf717995cf3ccc3cda5369eed91af4b96703ecdc074696b7
+SHA512: 15cc2b59e8f5964782b41e81c1a6599f2be3616d80ea6708de2ea6e90dd55d9d29d34254e63d3388887d645379de6bb518434f72f60131a7cf3978aa349b0153
+Size: 10089744
+
+Package: linux-headers-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 70745
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.154-1-rk3399 on all
+ This package provides kernel header files for 4.4.154-1-rk3399 on all
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.4.154-1-rk3399/linux-headers-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: ef2d58f0923e4c3c79b391f7d9c98a46
+SHA1: e7fccedc790485a3fe0c423d02ede859e4ad997b
+SHA256: 319e67f2364d0d23ad84d75d89dd566e121f1b8b4a4e65d9dd987c87bca4acde
+SHA512: 60a2946686c2ed01726de13f7afc0e78e99db8a9bccb6e68d0a3acbba564e51bf4d74f72f42598d399828c9b9ba1402da069a5a4ad89291e176bdc76abc486a6
+Size: 10147968
+
+Package: linux-headers-4.4.167-1-rk3399pro
+Source: linux-4.4.167-1-rk3399pro
+Version: 4.4.167-1-206ee2c3
+Architecture: arm64
+Maintainer: Anonymous <root@dea14a1e1052>
+Installed-Size: 69964
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.167-1-rk3399pro on arm64
+ This package provides kernel header files for 4.4.167-1-rk3399pro on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.4.167-1-rk3399pro/linux-headers-4.4.167-1-rk3399pro_4.4.167-1-206ee2c3_arm64.deb
+MD5sum: f7fdb8b2aaf4467a8405fa654ba8cceb
+SHA1: 0edafb11e6eecf75f9b39952456562aab047fd2d
+SHA256: 75d60035d4aa16239d725e3af944f1138a2ead7da074b296eddce69231bac3e6
+SHA512: b42a54873d3780f57e31efe1f950d8c34920bd6b07165c5b29d46063fa0a11ca1aeaf736f0dc4630be511ca578c32c174d53647ba7c4a4a1e504d48096918ffb
+Size: 10074048
+
+Package: linux-headers-4.4.194-1-rk3328
+Source: linux-4.4.194-1-rk3328
+Version: 4.4.194-1-12a18255
+Architecture: arm64
+Maintainer: Anonymous <root@5b9deb8cd894>
+Installed-Size: 70307
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.194-1-rk3328 on arm64
+ This package provides kernel header files for 4.4.194-1-rk3328 on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3328/linux-headers-4.4.194-1-rk3328_4.4.194-1-12a18255_arm64.deb
+MD5sum: 2bf39d934a2c747d90d5909c22e685ff
+SHA1: 1d1a7f063933187fb293e4df26d91411cbead33a
+SHA256: 5cf0301e9a826a48d792b77dfe2bd9bab8112b4283abc2802173595a6daae23c
+SHA512: b742bfd827b24c1eda079575532d60690533b7f6bc8d9d4b2d2549c34ccd4689f9c12e80df0172ce72836bf43068878929dc602ae83c607244202235f9d96c7c
+Size: 10181496
+
+Package: linux-headers-4.4.194-1-rk3399t
+Source: linux-4.4.194-1-rk3399t
+Version: 4.4.194-1-4e1e1f35
+Architecture: arm64
+Maintainer: Anonymous <root@5f54913aef1c>
+Installed-Size: 70333
+Provides: linux-headers, linux-headers-2.6
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.4.194-1-rk3399t on arm64
+ This package provides kernel header files for 4.4.194-1-rk3399t on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3399t/linux-headers-4.4.194-1-rk3399t_4.4.194-1-4e1e1f35_arm64.deb
+MD5sum: 564811f345b42a2f354f1e606ff7cca5
+SHA1: 0ee0b102952999b565cde0d607ecf6c1019b32db
+SHA256: 85ff4e100bdc4b1d2ebbaeb3bd4a1b51255f9943cb6ee17f8db95056293cd045
+SHA512: 89741fa100460a9988721905cc152006e9a9e331b29034edb90177aa22c03eeff3818221383e8dc66d1c8b646bdc03142eafe0d95f958eda99d4c5f7eabde4ad
+Size: 10188976
+
+Package: linux-headers-4.19.193-1-rk356x
+Source: linux-4.19.193-1-rk356x
+Version: 4.19.193-1-b7bf11f19
+Architecture: arm64
+Maintainer: runner <runner@1466634dc2e3>
+Installed-Size: 74745
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.193-1-rk356x on arm64
+ This package provides kernel header files for 4.19.193-1-rk356x on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-4.19.193-1-rk356x/linux-headers-4.19.193-1-rk356x_4.19.193-1-b7bf11f19_arm64.deb
+MD5sum: c7303e32e1180de8f43ff454dcb1b731
+SHA1: 0da916ed22d766d94581c6aedb16cfa3d8bfe4af
+SHA256: 572333715a60c944e1c5d6d77811122535833f837d7d77d3cb65c4e46ed4b59a
+SHA512: d32a4a4769d5a652c70cd88db8f0fcfc8fb644b45461219d3952e05573507852b46dbf4abb8753864f32042b76105c4ddde771f80ab215b91191b18acd4beedc
+Size: 11254364
+
+Package: linux-headers-5.10.66-1-rk3588
+Source: linux-5.10.66-1-rk3588
+Version: 5.10.66-1-c42853628
+Architecture: arm64
+Maintainer: runner <runner@3fc3bdf31cf1>
+Installed-Size: 47448
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.66-1-rk3588 on arm64
+ This package provides kernel header files for 5.10.66-1-rk3588 on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-5.10.66-1-rk3588/linux-headers-5.10.66-1-rk3588_5.10.66-1-c42853628_arm64.deb
+MD5sum: 9fc0b5f4267062255f2f3c74a79fbf7a
+SHA1: 1b1ed32d7a3fe7d5ae6c24e4ac9e23b3d2557f3e
+SHA256: 7a05801e477ae7ea262ce652620bd54c42c8271f346738ddd4cf408a4f962feb
+SHA512: 34e5d1f4fa24a6f8ee9875b86ebfa1ab8e58cae0f80d65687befaacdf5000eb9025e0627b30b1ac3f8566d37aa2f3cb419a0351a756641289388322c6076ceb3
+Size: 7745400
+
+Package: linux-headers-5.10.110-1-rockchip
+Source: linux-5.10.110-1-rockchip
+Version: 5.10.110-1-0a544b8c7
+Architecture: arm64
+Maintainer: runner <runner@2597144e02e6>
+Installed-Size: 47578
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.110-1-rockchip on arm64
+ This package provides kernel header files for 5.10.110-1-rockchip on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-5.10.110-1-rockchip/linux-headers-5.10.110-1-rockchip_5.10.110-1-0a544b8c7_arm64.deb
+MD5sum: 4ce496231991e81f53ed23dbaaa04602
+SHA1: db064bdcc26618f7423bd858bd7deb69b2b4fca6
+SHA256: c70897dc60f5f1c6d151f1b4fe8e52fe9e68b0b0a75c0f118cbe6248be9e835b
+SHA512: 5a39273138a4a6f21cfd3f7b1238eaa1c46b34c29951bcfe4ca04a046f1de3eff95c0e6b2a69c5e1f1abc447b28460c8c9ddc6b164df10cd684affc82b4e94b9
+Size: 7763612
+
+Package: linux-headers-5.10.167-1-stable
+Source: linux-5.10.167-1-stable
+Version: 5.10.167-1-a5acb54d4
+Architecture: arm64
+Maintainer: runner <runner@92bbb1da8809>
+Installed-Size: 48545
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.167-1-stable on arm64
+ This package provides kernel header files for 5.10.167-1-stable on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-5.10.167-1-stable/linux-headers-5.10.167-1-stable_5.10.167-1-a5acb54d4_arm64.deb
+MD5sum: 06de532cabc75762f52fc489279e0d63
+SHA1: 78062616e40161be3015052be59ba12af807882c
+SHA256: a4c7fc5b2940a5467f9a2036786ae9a9a4be2c056c166faf700810394826638b
+SHA512: 03846a15fe4ff6d845109f43c8e1cae4bc513bfaf5caa4b9d7c596faadbcc8b0af6eb45020d6ec37e3d04346e5a69086062d9cd8a87f473e290761876f7b7c7b
+Size: 7621192
+
+Package: linux-headers-6.1.12-1-latest
+Source: linux-upstream
+Version: 6.1.12-1-129c15b60
+Architecture: arm64
+Maintainer: runner <runner@a7dead837b29>
+Installed-Size: 49605
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.1.12-1-latest on arm64
+ This package provides kernel header files for 6.1.12-1-latest on arm64
+ .
+ This is useful for people who need to build external modules
+Filename: pool/bullseye/main/l/linux-upstream/linux-headers-6.1.12-1-latest_6.1.12-1-129c15b60_arm64.deb
+MD5sum: 23c74d9bdcb8b2d6ba49e5b354014a6c
+SHA1: df193c911894f0652755e869b2131232164fadbd
+SHA256: 228c5d1f72ef358747c06c378f1bcbce74b895c0049db7ed3ab6f0ceea5cfd4a
+SHA512: 6a11a0822dba69ba8d459e7b6e9a02444aa6eac783c7075e2f2880cbf9909adfbcf7963bcac2f3e9e3771e61d14e120ddb8f52de160f4f344ed31f6522ca4e53
+Size: 8219296
+
+Package: linux-headers-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for latest
+Filename: pool/bullseye/main/l/linux-headers-latest/linux-headers-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 2aad0874b68ecc98c6998781d314e8ca
+SHA1: 2114bf00bbc766e60e9633011c0c2b28c3686b37
+SHA256: 87d26356049d4d716df1da4853c8239acab199108c420a52fb997deb9ed07125
+SHA512: 15c56630b1a220b190875b1ec8709ad031a06615670f0121ba04c27d37f9371ebf74d9a28d1b76debda82e58cfca99330d477e877df9e8cc59e8df56c50d6acf
+Size: 1100
+
+Package: linux-headers-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-cm3-io-latest
+Filename: pool/bullseye/main/l/linux-headers-radxa-cm3-io-latest/linux-headers-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4817e22dea9f72195be085d8112d2ae1
+SHA1: 8310ee4837651ee53799ffa68697cc04840fcc2b
+SHA256: 4a937c3b9e16892b2df669532a29a290999c1b8da9add9391e2a1cbea59505af
+SHA512: 7155e7de671bffac487730ad166c2a76e1569bc80ed89cdc178f31fa54fc783ea6ca04027af016be3f06dcad8dfef5bae6e814b212117d7c5664e4a6bb34f03d
+Size: 1132
+
+Package: linux-headers-radxa-cm3-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-io
+Filename: pool/bullseye/main/l/linux-headers-radxa-cm3-io/linux-headers-radxa-cm3-io_4.19.193-1-6ab941e_all.deb
+MD5sum: 6492ffdaeed5f53164f226f7e0ac060f
+SHA1: c61cd1f5df0974641934dd829d3bef30769940fa
+SHA256: c6f64a140b3ebd4e73f49c069642459b9cf70b7fb51ee571459546cf5df662f2
+SHA512: 8948b6d091e7da2e987fe9677918b1910e1f7622b117a4420f8f910055c12526c65ee8562e08dc4efa54b952226768995458114cfed4944b545cbefc66403486
+Size: 1124
+
+Package: linux-headers-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-rpi-cm4-io
+Filename: pool/bullseye/main/l/linux-headers-radxa-cm3-rpi-cm4-io/linux-headers-radxa-cm3-rpi-cm4-io_4.19.193-1-6ab941e_all.deb
+MD5sum: 1e1b91a91201c244101d529998b376f8
+SHA1: 95af9af3c730889d3a621df383d11531a3f49870
+SHA256: 07c56df9919c5509c52475ab16ec8f24a4cdc4f0033e63c49f8d018310f68a54
+SHA512: 87302cadf4be9fc1819da46499212c1dfea28836488a587721ac226b706306a820b9f681c5d18ed934334a8a696fe7ccfed6eccdef3c44b9b96fefe22016f37c
+Size: 1144
+
+Package: linux-headers-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-cm3-sodimm-io-latest
+Filename: pool/bullseye/main/l/linux-headers-radxa-cm3-sodimm-io-latest/linux-headers-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: dc318ab405188053aea49adfc85cf068
+SHA1: d9f753d9a8cde1cf0ed5936f3c8d2b5035b0f58f
+SHA256: 91a75bbc03a0f97836583edfa0b0340401e3eff1a59a6359c193ac995977843a
+SHA512: 0102394715ec2bfd77b243aa284351bb4e0a23913c289dd7ecbb06c24501f269a462abf7809e3a68422c0ca16bc0057f08009ddf287dc67fe86452c1c2d5d0a1
+Size: 1148
+
+Package: linux-headers-radxa-cm3-sodimm-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-cm3-sodimm-io
+Filename: pool/bullseye/main/l/linux-headers-radxa-cm3-sodimm-io/linux-headers-radxa-cm3-sodimm-io_4.19.193-1-6ab941e_all.deb
+MD5sum: a2d64362268c041bf4940be102c601d9
+SHA1: e1eb4a51a460bb17c9346c7fb873f7ab3730947b
+SHA256: 8c8b2ecb90e597fbb2c635dd6e196d3929022ac0397c23e2d33d9305470e6e1c
+SHA512: 6a474b1e5079c981434753c2c706736e80f06562a4e35608f241f9630c4155b4cae65490ad6c0049e1f085f3eab04f7f2e81df5164a82df5aef983c1942756f3
+Size: 1140
+
+Package: linux-headers-radxa-e23
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-e23
+Filename: pool/bullseye/main/l/linux-headers-radxa-e23/linux-headers-radxa-e23_4.19.193-1-6ab941e_all.deb
+MD5sum: ca6bc8a02744104bd592c7667b0b893f
+SHA1: 4d88f6bfa51bc4bd4c2278802766254f9a170154
+SHA256: 53ca67048bb53a48acb437862e97aa42b59637ec1f38add5c544a59f71b2d7a1
+SHA512: d5a5c1575c7a38a58af64fe2bf2ca6fe7e6e2cc221b682bd4e490d1a165c76553deb2c694f8875171d517472d9a800b2ed396d51584006fb2a1ade1ce40e0558
+Size: 1116
+
+Package: linux-headers-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-e25-latest
+Filename: pool/bullseye/main/l/linux-headers-radxa-e25-latest/linux-headers-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: a40ad8bf8b80f9c7b71dbfa944371996
+SHA1: 2737fba75ce9a011347e965cba0a106d7abc5c1b
+SHA256: 197eb0b55e11a8c0a25096b480892049995ccc808487b00aa2b6161547e9b172
+SHA512: 9cd09a42ded90fa89977083131f14d5626b6495766f3297715fa2282922551d2fed1dfa40df35ecd805acd51acc805e84e0b2bfb4307754f20dcc270d3181886
+Size: 1132
+
+Package: linux-headers-radxa-e25
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for radxa-e25
+Filename: pool/bullseye/main/l/linux-headers-radxa-e25/linux-headers-radxa-e25_4.19.193-1-6ab941e_all.deb
+MD5sum: 2ee9e1bad43af8e13c8d751bb4832165
+SHA1: c7ab1b02c26a96c10802df502e9b6197715e3ffb
+SHA256: 787b413ae055963c7c4fc4bf87ee61fd00fec5a83188b3f3594e91c26fbad743
+SHA512: 3b8967e9bd405e5478238864af5d3ce06892135a784f56850081a588da3558ef776a73b2eb2a65be7b9abc899d891240e717a85f0fdeedec555156e9ed5a3fc7
+Size: 1116
+
+Package: linux-headers-radxa-nx5-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for radxa-nx5-io
+Filename: pool/bullseye/main/l/linux-headers-radxa-nx5-io/linux-headers-radxa-nx5-io_5.10.110-1-71086bd_all.deb
+MD5sum: 797faf86d2c5fac755b47ff2688b4b7e
+SHA1: cfda57d98cadbb4b4590233ffaf87ac16a9ce989
+SHA256: 9b424e1120728603161e454315363ca58554c8eb4ac10d3b14ac53ee7c0ee950
+SHA512: 6b6694762f4ab0a6c82f7182acef62fb8422408abf52ade1eb1e217416728b3116820533ebdb9b9cdad44ee4774f8c33d9e9a4c6b87d897a323e0cc28f28fd7e
+Size: 1124
+
+Package: linux-headers-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for radxa-zero2-stable
+Filename: pool/bullseye/main/l/linux-headers-radxa-zero2-stable/linux-headers-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 7086b4a28067aa8c14cdfd3afcb5a9fb
+SHA1: a7adf1322f0c1e677576da76e7b39da43904fd97
+SHA256: 1f144a7301ade109e950f7dd0c3eb30924808ac98e397cf83c6306af134a846c
+SHA512: e037e6295004629ce40a11fecf67c25f107667fc1db9e304ffc27e087b73974357585a91152d58555460ca05a867dab951fd65fbc8e18cf889948889effbdecc
+Size: 1136
+
+Package: linux-headers-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-zero2
+Filename: pool/bullseye/main/l/linux-headers-radxa-zero2/linux-headers-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 3dbd451765e1f822cff001727a034417
+SHA1: cdf874827dd130c0e37816e82d5226a396c3e68d
+SHA256: 37abc54447a2277b50dbb220e03c4f9b7ad95c11bff615790fb1303447b529e4
+SHA512: c8053ca4af71b23588f2569e261350c1153bfd8bf6e9a2a16f7973b4fa570db61cfffad3ad43f39682d3bdfac62e6cf33487a454bb159279acd8eb6c8a4ddfef
+Size: 1116
+
+Package: linux-headers-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for radxa-zero-stable
+Filename: pool/bullseye/main/l/linux-headers-radxa-zero-stable/linux-headers-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 5d36a07e67ff90c08108c1160cc56b8b
+SHA1: a5ca892acefef7e83bb4fd5aaf58e79713887d29
+SHA256: d5795aefd7a8addbb3ac760e28a59b20e657ea278bae695f5c054297c0af50d8
+SHA512: 7dfc88093544f39d14ef062e9713f775f060e4b9a2c9e032a6bc1992e2ee3629d57c4eb457fd5abd395d90c87d28e5540b553304880b3eba5baa6c03155ae524
+Size: 1128
+
+Package: linux-headers-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for radxa-zero
+Filename: pool/bullseye/main/l/linux-headers-radxa-zero/linux-headers-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: c496a06c56f370b51274d9ecdd2a1fed
+SHA1: a067da6bdc449c74c8bdddf77b6afb7860d81125
+SHA256: cad7ba4b24801a4b2c2ac507424d26f9982dfd55f1447e61770c12695aec76df
+SHA512: 536bdeddde2d8e405e430f9cdc696ba3073f9ef9ecf8ddb46c5bd2a575b80b420b6b4aaa0e09452833f0b67e028beb61ff32396401805508a168209397df8fc6
+Size: 1124
+
+Package: linux-headers-rk356x
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rk356x
+Filename: pool/bullseye/main/l/linux-headers-rk356x/linux-headers-rk356x_4.19.193-1-6ab941e_all.deb
+MD5sum: b75bb6716cd7686e397b609e87f5705b
+SHA1: 2aadfa79feec18dfce447406e665271126018833
+SHA256: 2f3a387bcb05c5efe35ea3d6a4060990ef66b77bc0fd21b1a71b1f703210c6e9
+SHA512: 23237237805258d892640412609ecc803f4d88621d0ad5c6af49422aa49926ea4a5b3af5d98297acdf5a8085c615abc57d64c46231bd46f656d7eb6f3c321364
+Size: 1108
+
+Package: linux-headers-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rk3308
+Filename: pool/bullseye/main/l/linux-headers-rk3308/linux-headers-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: 37e6f8907d73750e6b92092d7eb31237
+SHA1: 0a4747e9429319bacedbdfe3c804288691bf6223
+SHA256: 284bfa69f615adac8174a4849035f2f1adf185ef8252712ad1519350d7669aa9
+SHA512: 2c2f2e668f16133db70fe49935a1798b6d535ad05aae838d3e2e4bccbfdb1b304470b1c6881dcc74bee537f510508c6b37530e939471411a94394a6ba08a4b7a
+Size: 1108
+
+Package: linux-headers-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rk3328
+Filename: pool/bullseye/main/l/linux-headers-rk3328/linux-headers-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 59fe2c596e7a9ab711287761239e272e
+SHA1: ad06b68e239030a7a0a2754d5d36c8c5779c4648
+SHA256: 7919bfdd659fb2e65a5cbe987fe6bf81c1c754f4f98815c3f596a28c261ec3f4
+SHA512: ca5cb7862f7cb798a631275b9416cd8df6e663990a541f6a5d4fc95719919440ab2bea04bf2e87c6b1676d38ff90a18ec606759742d4903b6f5feaf06e038d89
+Size: 1108
+
+Package: linux-headers-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux header package for rk3399pro
+Filename: pool/bullseye/main/l/linux-headers-rk3399pro/linux-headers-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: 24e30e1c9f609c976750cc85b77fbdf7
+SHA1: abb706122c4381b35b223fabb5240de92d14ac9e
+SHA256: 8278e614f9adcfef06e59d183c8200e738a1dd27e58992dd86f441cba2b8895a
+SHA512: de6767d1c76c652cf363bebb95e1f53c40f7b8df68900a31c8957beed3c04168f911a4aef0191d7c5c63adc0b3c5de331bc9a415b66d56e6d2934c14b766e232
+Size: 1116
+
+Package: linux-headers-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3399t
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual Linux header package for rk3399t
+Filename: pool/bullseye/main/l/linux-headers-rk3399t/linux-headers-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: 073973a3da252a97ac555e6f5c50d18f
+SHA1: 9a46f28ffe442b3b274e57c3e0db37b7427f5526
+SHA256: 894b6ed59f7427292f6dfd8bf76f007cbf71e822caf33e6c531782ffabf02890
+SHA512: 3af2edfe78b883b464b659d78ef802cdd735f3942e7e61792fafef47b9a8294e6eef1c26f5a544ec0fa3e49536eba851fe2ea231cb5736fdfbbe7b8cce52490b
+Size: 1112
+
+Package: linux-headers-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.154-1-rk3399
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual Linux header package for rk3399
+Filename: pool/bullseye/main/l/linux-headers-rk3399/linux-headers-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 2b97be909ccff36872a73a45e034993d
+SHA1: ae85b113cea988ac05373924e1959141ada96703
+SHA256: dc416409fb18e80aa2236b8600769de0f2c212020c34ddfbe97d2c750a709db2
+SHA512: b331338296422681ae0cc9071b4291233bf091e752a9218b31e197c9f01bdd9689c3743f8a4a62aa5c3e705f7f302e43d77190385bddd4a04177fb315fb43076
+Size: 1108
+
+Package: linux-headers-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.66-1-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual Linux header package for rk3588
+Filename: pool/bullseye/main/l/linux-headers-rk3588/linux-headers-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: 61636fdb8662a1f52f097bdfd6ca0fd0
+SHA1: a51bfbf529014e767b609eec4ffe79bb9a3814a2
+SHA256: 0bcf31ac58f70731e2fe609555ece7a47f0cfdc4556ecfff5d6a680b1a1a0813
+SHA512: 894dc5ec3be04ef0be453314ccabd6ed862682a1ff6c3befb3f9b9573c2dfa8ab92c6f78ea1b3858f68b17cba29753526ac06736448109013f37874afaeb223d
+Size: 1108
+
+Package: linux-headers-rockchip
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rockchip
+Filename: pool/bullseye/main/l/linux-headers-rockchip/linux-headers-rockchip_5.10.110-1-71086bd_all.deb
+MD5sum: 2fc036cd716eb065efef51540bafc4fc
+SHA1: 765e1696832244a3b85eb57a6083c4814fe83a9b
+SHA256: e91266302f5744e50549c6a36e3bacae7e15797cd3f81df5077950e0504b0902
+SHA512: 07754a32850704b123fe98c4143572bb92a41c11593e44f93e091209f53baa90ff70e6430d5cf30732bd419c3f10765597646961b82cdfc80dca747553da4e5c
+Size: 1112
+
+Package: linux-headers-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-3a-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-3a-latest/linux-headers-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: f653a079d59dc4ee6218208e7d8eaa4a
+SHA1: 082c4b8874df34dead6292a910a0a2dc6fddee48
+SHA256: 82a3da8e0d7fe3f7b885b36723488803d2a2e5bf6dfcace282857b88e91e801d
+SHA512: 459ab9990db94ce80978051c7f1afa3b55d187910bd8b3e9f4df116a1edc7797a72c27441db178bba121ea210729fb50feb75a9cab0bffaf597c32f4764c6bb7
+Size: 1124
+
+Package: linux-headers-rock-3a
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3a
+Filename: pool/bullseye/main/l/linux-headers-rock-3a/linux-headers-rock-3a_4.19.193-1-6ab941e_all.deb
+MD5sum: b7d9586047781b80a0dbb070d3ca4c07
+SHA1: 85cd236bad5b7b26e11a5addfd6fdbfa0fda846e
+SHA256: 541db8e1f750d4f4bed2b4ff797d4a8d9c006e7e58a371e28477bd36299f8a2c
+SHA512: 4134f4e7afd00d768571df4da687c98e9e8bd0547543b127834b5cb1848b97b7fa1d1ea2673b54e654d6db90f4a624405638a3bf9b413f5976b4299074992956
+Size: 1112
+
+Package: linux-headers-rock-3b
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3b
+Filename: pool/bullseye/main/l/linux-headers-rock-3b/linux-headers-rock-3b_4.19.193-1-6ab941e_all.deb
+MD5sum: 65ab42dd4e1e80102200efac353be42b
+SHA1: d71b439e619003f915c3268761a76734ca5677f3
+SHA256: a656c9cf413fb87745f42cce4f7afcf89bc7ff0440c3a1b785522f8d8fa3bce0
+SHA512: d4a929cb7cc0f7d845814c432af4ba0391dade443651f7651cd7b6a191a78a87a5d7c4b4008c0289b40fa5ff6d419cea0495b299b8d359b7c5a39a4a3d46c02b
+Size: 1112
+
+Package: linux-headers-rock-3c
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux header package for rock-3c
+Filename: pool/bullseye/main/l/linux-headers-rock-3c/linux-headers-rock-3c_4.19.193-1-6ab941e_all.deb
+MD5sum: bf109e3e7031bb89cd6c39e499607e96
+SHA1: 968689e10c8fa7fc3ab8044d17a9c25873a71364
+SHA256: f386d389af3e07eac258fde300f7a4ec31888e960db35d088a839502fcd741f6
+SHA512: 151feb331d6e83c89f0e9b71a765aa743974e0cdb1ca3217704545b87fd656d65b01b16b32700dd64a1326439e8086dcc5a7beba5ba5f97e1b62303fdfde1332
+Size: 1108
+
+Package: linux-headers-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-4c-plus-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-4c-plus-latest/linux-headers-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: ca8ecbfbb6aa90d9e9bc2a2ed70c657e
+SHA1: 3394c173f9b9d08b7b2cf19138c538b50b3e7c76
+SHA256: 2580e527a009a7f4e5b2f588b635f95f15bceaa566d87e2bec6a2157d1b70afe
+SHA512: 80541b84326fedbdfbb35e0aad07a6cb637e295cc790310d22bb7e88252bd4badc737cdd77516dde58a20d8695844fc6a8d87ef67be3820851eea2e0f1d2cd0d
+Size: 1140
+
+Package: linux-headers-rock-4c-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4c-plus
+Filename: pool/bullseye/main/l/linux-headers-rock-4c-plus/linux-headers-rock-4c-plus_5.10.110-1-71086bd_all.deb
+MD5sum: e41f589e48870b0bd55dd59543bdfb1b
+SHA1: f5b0e59e43cef51bbd734ac8d5c2739786c79493
+SHA256: 707fb660d6837ffa90275563282b0a19ae9a4dda0a3ed1c553c529efeb072516
+SHA512: ffa7ff5922ac13edbc648d70aabcd9481672ea209b120959cd74cf7e7eb6c952a4a32e4e41e599f4fe4080835ec1602cc3da59383a681eb50b78579db2b1181a
+Size: 1124
+
+Package: linux-headers-rock-4se
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4se
+Filename: pool/bullseye/main/l/linux-headers-rock-4se/linux-headers-rock-4se_5.10.110-1-71086bd_all.deb
+MD5sum: baead8c694217385562c08122d8e3f49
+SHA1: 3fcff4fa59ceb20144c3eed39e8fd24ff01cc814
+SHA256: 58359c41cec77f3c4cb663a21e0a65661ffa4c45dd4f23e892f23ff269c97e07
+SHA512: 534a3337092de4ae1124347057be66cdb9ad53cd6a1a930774b61db57d3cd65e10f6d86e56585333d7bf77ffb874c60f41f489b5785d32551bcc71a18fcd7d02
+Size: 1116
+
+Package: linux-headers-rock-4-core-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-4-core-io
+Filename: pool/bullseye/main/l/linux-headers-rock-4-core-io/linux-headers-rock-4-core-io_5.10.110-1-71086bd_all.deb
+MD5sum: 4066842f9e89b621a9c2b952a47e529b
+SHA1: 248c2fdb3f317a4e1a93f3264bb7491d5042cd84
+SHA256: 5b6ef6f7e356a2c08a3e92b054ac6009693450e1cb38ae05fdf6fa84b66bddf8
+SHA512: d117637c29212709ae48f936c56a448363efdf469e78cfb7c11b9a72fc74403b58061e3469fbec226d7b21f4fa32e92800014fb5a08be603d5a8ab4961a5729e
+Size: 1132
+
+Package: linux-headers-rock-5a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-5a
+Filename: pool/bullseye/main/l/linux-headers-rock-5a/linux-headers-rock-5a_5.10.110-1-71086bd_all.deb
+MD5sum: a4ed8299204e24082134bf96d654067a
+SHA1: e5d86fa9341de2368cfd6c3e942aeda963d890e6
+SHA256: e06bff63da21ac495a434cdc4d3542d3d67b8c485be61ccd0a97e7a66eb0bbfe
+SHA512: 918ede1c7ea60a81b63385fbb26f0ffbe3412c344dcae20279adadf8bfa23ce0e0eca63fa7f95eb86cd4b3a95450c4ee0be927966a0db938b391e701de4e90df
+Size: 1112
+
+Package: linux-headers-rock-5b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-5b
+Filename: pool/bullseye/main/l/linux-headers-rock-5b/linux-headers-rock-5b_5.10.110-1-71086bd_all.deb
+MD5sum: 7247a430150a2298fc80c61f8e3c9c4c
+SHA1: f5d1f6b393d22c8e81bc3bd9d4e5d8361fcb1fed
+SHA256: 78d27526bc33f241d7a72c4877c317ac722264c25cf947de3de503192126ca5e
+SHA512: eb42f3178614fa9218c521b8f68efb7661f6c58a33265f530b4c3e149dedd799e4425ec9f90294fac0916f6841f5014828eb4ec01206d4249cbf71a74b251a70
+Size: 1112
+
+Package: linux-headers-rock-pi-4a-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4a-plus
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4a-plus/linux-headers-rock-pi-4a-plus_5.10.110-1-71086bd_all.deb
+MD5sum: addd57c72ecc16acb97f86c9e5433c51
+SHA1: 3de9854b53d41be95e10a8993ab9a922a747fde1
+SHA256: 82b0fc0b72fad44b2f6df26cb223c469064a75d40b6cf447b6737bdd720f14ae
+SHA512: 9ea9539472ac86eaa04ded57f446a0c6ea9396f29157b36534d0c11e5d353e67de6423e94f2b67f8056867777a3b91c0de2900e43015c138c6f5f711e0822dda
+Size: 1136
+
+Package: linux-headers-rock-pi-4a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4a
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4a/linux-headers-rock-pi-4a_5.10.110-1-71086bd_all.deb
+MD5sum: c377e343f868068ff0a5d67bc3127199
+SHA1: b0cc4401e2a515470461d2e33f4eed31973761b0
+SHA256: e784232ec2d3a72628dac65beb5d8932877792221e714690bf6a4ce79f0dec54
+SHA512: 655bcdd3f7c7f5d991eda6d3a83e81a6873e9ca4a34d648ec3177b94d74a730562def7f69c49a045c424b29775734682dd01256efed8bbea292631c1b13de539
+Size: 1120
+
+Package: linux-headers-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-4b-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4b-latest/linux-headers-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 02b7fa1c3f1fb15d81d5ab93de3d4ae2
+SHA1: fde4969661825c9aee7765ad47b28d6ca2bdb503
+SHA256: 9d0def71f40bc2ce121d3a05e31b65ecc6e7fde0fc326af09f1b725a5b19ac8b
+SHA512: 71d1a4abd75bede46daccc38978ff1ca95c9ac1edf5e6e8b2971477704f937e98d49cd1ac75211b070b8e8af27d496fcff12c555bb7d5b285495ba557a91f335
+Size: 1128
+
+Package: linux-headers-rock-pi-4b-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4b-plus
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4b-plus/linux-headers-rock-pi-4b-plus_5.10.110-1-71086bd_all.deb
+MD5sum: 9a56edb2cb3283bf3a179cb2bb783455
+SHA1: 1a776740c0ea41b221789bd507ea9c07b18bf060
+SHA256: 075d846827b51cbb6bda153fdf1c8bf134107a074e2dc01958075cff9fda405b
+SHA512: 5abae8e706ef287218f3da4ca23f73b2fd4f90e4e5728a565ed3db8d61f94774d2f1fa7d452a52a6f26cfbcc7ebbb54866d87eafefdc9172b7d0e0092a8fa9fc
+Size: 1132
+
+Package: linux-headers-rock-pi-4b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4b
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4b/linux-headers-rock-pi-4b_5.10.110-1-71086bd_all.deb
+MD5sum: bd06bbebebb2ffe1ce8eac5c386d7079
+SHA1: 5a3ee25672f0c5a8b837211cc59e7fd7d6e63c7c
+SHA256: ee62ab0088b99a66669cb5b25b780521b224ab5b553badd55d95449b00c76451
+SHA512: f57b949e2ce6741cf92aa3f08ab09306884a6713344bf6d78d98c420412eb529a9d1661ff2d44703ef48f9c5fe7db6a2edeeeed23a63eb36d7a22c8617ba7750
+Size: 1120
+
+Package: linux-headers-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-4c-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4c-latest/linux-headers-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 3be282f292abf77997cb8fc8ddb06f0e
+SHA1: 7326b4fbc283507996c3c75111255615915a7e69
+SHA256: a3e4e75555bd8017c6863808bb5a02f61918c1fad1cf0f92eb3494d0990f314c
+SHA512: 01f5d4ff0e9d5670590c9a91c1b5bc4d81b9892f467052bd4b55801faccf438c0740c39a1d2890d8f353284566c2820bbc00ebf5a86a5a9e3738d8f4e5017c82
+Size: 1128
+
+Package: linux-headers-rock-pi-4c
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux header package for rock-pi-4c
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-4c/linux-headers-rock-pi-4c_5.10.110-1-71086bd_all.deb
+MD5sum: ad0aa8f00f8fdbcd991a797ea1f3465f
+SHA1: 6c72073659b9f82e3e6b408a516ddb7caa83d53b
+SHA256: f4db52587ad2c685cf3c9af4c695b0b6b5f4dbab09dca7af467befdb150c711d
+SHA512: a81de746cdcb6bbae1df24acdd685d435a5e6a47cc76a8f9dda222a9c46b93967d18a1db4be1541f281cc682518b4792556b164a5fd5ef5887a4b289ca63512c
+Size: 1116
+
+Package: linux-headers-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rock-pi-e3
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-e3/linux-headers-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: 49029a1090a4abc248e493200c47b791
+SHA1: f465245bf68fb258381fafa4aa837db5a5476fdf
+SHA256: 47d73db0087d0f6eeff2e05d0ab164fb68fbd95cfe3f0e918147cf62a906306c
+SHA512: e0ce9b737135cead218f642ec0719950c90aae6f5fc21afc4d9fb0cfa8be7339a984ed7ed34c4008407c1d04231557d6a9a87cc3fe8e3769dd81f18cf33ae577
+Size: 1128
+
+Package: linux-headers-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-e-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-e-latest/linux-headers-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 6dad994aef24143b76d6311b4e75c1c7
+SHA1: 80527e6b6dc026d922c46d4c8a8bf519d787829d
+SHA256: ceabf11eb8e4292d89871bcc6adf88672eaf7abb3bc514fd7826d0e26ee82bbb
+SHA512: d33862db044afcb487ad6ec5a836e512e010c9d3a5892299db70d168a0cbea967dd6b43b9fbb6eef97d36201847174f64f6de2ec32d574e715df22c229d2f9f3
+Size: 1132
+
+Package: linux-headers-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux header package for rock-pi-e
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-e/linux-headers-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: 272d8d3504efa02cff68a526d33c95b4
+SHA1: dc95c9aba8bbfdca5247a9d8577d7c06abd814fa
+SHA256: 19bebda650d48adbb0889acac0e2ea57be0a27cb348192093f99a3422cd0a64c
+SHA512: 78d88512791c80655d9f9e737cf2507be4239ffffa770004f62ac2f59ed2a3e0fea93367dfa14d896c11a508ea1e0b12e4f60ced4e3f5a8949418e002968ac5e
+Size: 1120
+
+Package: linux-headers-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux header package for rock-pi-n10-latest
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-n10-latest/linux-headers-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: cc5f31d88b020981c55f9f591996cd98
+SHA1: 134b3fbf03ff6e52eb90be3e265496e793b6bb97
+SHA256: 80af06ea1417373e9bbe9376367866f54914435d4c26a0ba7b0d7104bf7ae10a
+SHA512: 1b117bb793a2084b6e48dcdd6434b2ea060c5540665cb33a6194f55ef8f691e39984ef9609fdf2452db185b930b7a9a3cac22b9d3b721009ad6ff6f364bf040d
+Size: 1132
+
+Package: linux-headers-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux header package for rock-pi-n10
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-n10/linux-headers-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 36c5b7eaf5ab545b567785b46cf79489
+SHA1: 9a3b8c1813f2686ec9594d638605bbd641f46de9
+SHA256: 92b29d7c56a462a85fe62b164a9639bd7e26aa8b20035537fd92b4d5c7e9cbfa
+SHA512: f26e89da25cb8389144be2735db1acb599dc2f45c71344b18d0abd14630fc6e716572a8e30288ad521aefd9ae95ea477b87ac6d350afa3c3e2544f5a326b9ca3
+Size: 1128
+
+Package: linux-headers-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rock-pi-s-v20
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-s-v20/linux-headers-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: e0f3d31a2199d716aa6efc731b1d69ac
+SHA1: db033d52d7fe993408a1466762a9bd16c7dfe6b0
+SHA256: cc5a2b9886b4f95ee65fa4175b0e652f0e46c93210d30d259937975a5d5877f4
+SHA512: 30c1a4d708d74343b89f58f6b10c2351db6a9120847d51c80ee7689c10f66a53b7c1c63ed5368c7baba23a9d9b000544bb47a7238f9269ce1e800b78b9abce8e
+Size: 1132
+
+Package: linux-headers-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux header package for rock-pi-s
+Filename: pool/bullseye/main/l/linux-headers-rock-pi-s/linux-headers-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: 0c60ab4be141509f137239e5c42930d9
+SHA1: 83d143ac2ed1adf07cf341d5d4f7e486d1027fa8
+SHA256: 64c316c7c56ea2421dd2ee019ab4f67a2e44a4feeb978ce5f389b7ae13b3a14b
+SHA512: 7d6eb34e9f03eca012732cc0e832bca1b2711b3d01eac7503d607cb092294df5f9c2ec33a63d5b6043b0c874fbbf3d9f4d96fa3d7391857eb3299de043b4832e
+Size: 1120
+
+Package: linux-headers-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-headers-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux header package for stable
+Filename: pool/bullseye/main/l/linux-headers-stable/linux-headers-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: fbc2d89fcb6019bc6c4e8599b974b345
+SHA1: 98e19167e0733774c77283f6d752dc44ce8967d9
+SHA256: 8f3691161746c8c86b8fd858e816dc83c56ffdb154bf4f724eabb6615de0d449
+SHA512: a8c45262c7598d0fd5f25070058d9e6dbe351bd0bbf4f02f2f2c3c13742bf8ad4559f7327008740895047bfd4137fb2fdcc9a63b5e8775849482ea7ef1086c1f
+Size: 1108
+
+Package: linux-image-4.4.143-1-rk3308
+Source: linux-4.4.143-1-rk3308
+Version: 4.4.143-1-222447a9
+Architecture: arm64
+Maintainer: Anonymous <root@dafbf47b5eed>
+Installed-Size: 61046
+Suggests: linux-firmware-image-4.4.143-1-rk3308
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.143-1-rk3308
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.143-1-rk3308
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.143-1-rk3308.
+Filename: pool/bullseye/main/l/linux-4.4.143-1-rk3308/linux-image-4.4.143-1-rk3308_4.4.143-1-222447a9_arm64.deb
+MD5sum: 157e3ac1f806582804b52a1f53e4f7ac
+SHA1: e70be5219eebaa4cac7f30b9b515686aa966f786
+SHA256: 443f5c5d9e8c9e27b75e3d2c00f41a22deb481343601c3653eed760f27f88354
+SHA512: 507aa42754a995d8ec0424931a031b276b89e536e4170b719d268eb977f6d8bfd79124f1ad48a56c295d19039d189cf39fe991da95e6bd1affe6884a7073d8ef
+Size: 11345940
+
+Package: linux-image-4.4.154-1-rk3399
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 84780
+Suggests: linux-firmware-image-4.4.154-1-rk3399
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.154-1-rk3399
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.154-1-rk3399
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.154-1-rk3399.
+Filename: pool/bullseye/main/l/linux-4.4.154-1-rk3399/linux-image-4.4.154-1-rk3399_4.4.154-1-86a614bc1_all.deb
+MD5sum: 41aa4a9714ac5f2c4ce020e6ac1ac68d
+SHA1: a1eff0871262a0afe065e9c1fa62a277cc355901
+SHA256: e4c7214da40be46bd186d50b8930353e3b8da0d517a752adc748a2b74c386698
+SHA512: 5692493f201b9b4ab17685aca6ffc734b1415a89ba26b73b3dc6f8e41df5515b24efa88e11c4364d5c6e02d5446771563a66da623792ce603afeaecd57642ac9
+Size: 15795212
+
+Package: linux-image-4.4.167-1-rk3399pro
+Source: linux-4.4.167-1-rk3399pro
+Version: 4.4.167-1-206ee2c3
+Architecture: arm64
+Maintainer: Anonymous <root@dea14a1e1052>
+Installed-Size: 58848
+Suggests: linux-firmware-image-4.4.167-1-rk3399pro
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.167-1-rk3399pro
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.167-1-rk3399pro
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.167-1-rk3399pro.
+Filename: pool/bullseye/main/l/linux-4.4.167-1-rk3399pro/linux-image-4.4.167-1-rk3399pro_4.4.167-1-206ee2c3_arm64.deb
+MD5sum: cb078aaac7a627577aa9ff8af09cc25c
+SHA1: bc672d9e9d1f839c8523d51f2dd55217ecc3e080
+SHA256: 99f08a2dc09ae89d437b63821e35d6cf2809e445ba6485d86bc3c1a94f531282
+SHA512: 818c4e00ed9db740d564f3e23b0a288120ae2781aaac3d4deb6a2b1f873e06e1df7ea7f511e351590fc09287e65cf0cd94a4fbbbfe4a72c495f4995820852425
+Size: 15753892
+
+Package: linux-image-4.4.194-1-rk3328
+Source: linux-4.4.194-1-rk3328
+Version: 4.4.194-1-12a18255
+Architecture: arm64
+Maintainer: Anonymous <root@5b9deb8cd894>
+Installed-Size: 76815
+Suggests: linux-firmware-image-4.4.194-1-rk3328
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-1-rk3328
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.194-1-rk3328
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-1-rk3328.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3328/linux-image-4.4.194-1-rk3328_4.4.194-1-12a18255_arm64.deb
+MD5sum: 1cc946a9522cabd85b361c069fb14583
+SHA1: 604ed4cc3bb03d4db3e267de8bbb8b248d2e32c6
+SHA256: 44bb62de4b51f3c4d3b5fa20d3584e7a120072e462ddf76c1258a249c9225190
+SHA512: 498c02136781e3ab5779e131304c568809b2d0043234279ae727b9f302261cc1f15a9f3b1298398cdfa3fc1f7eac733801edcd48d408cdb4c22dc5c24ad6d29c
+Size: 16569656
+
+Package: linux-image-4.4.194-1-rk3399t
+Source: linux-4.4.194-1-rk3399t
+Version: 4.4.194-1-4e1e1f35
+Architecture: arm64
+Maintainer: Anonymous <root@5f54913aef1c>
+Installed-Size: 65620
+Suggests: linux-firmware-image-4.4.194-1-rk3399t
+Provides: linux-image, linux-image-2.6, linux-modules-4.4.194-1-rk3399t
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.4.194-1-rk3399t
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.4.194-1-rk3399t.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3399t/linux-image-4.4.194-1-rk3399t_4.4.194-1-4e1e1f35_arm64.deb
+MD5sum: 551b10b5bf9a30de30af03ee66c89b3b
+SHA1: f85bfd98f98a53fe57ab91de25a8b65dcffde05d
+SHA256: b3d2900bced3b25003af3de0d774037ed12b949fceef81b290f400495cbff365
+SHA512: e1d41fb9c281c37bd2133c87ec4e8a1b482c9e7382362dbd87c048afa1be1847761b6f24f3cc65b8ef7eea385739a9c38019c0bd9aabdeb74fc62b7293b44e9c
+Size: 15420828
+
+Package: linux-image-4.19.193-1-rk356x
+Source: linux-4.19.193-1-rk356x
+Version: 4.19.193-1-b7bf11f19
+Architecture: arm64
+Maintainer: runner <runner@1466634dc2e3>
+Installed-Size: 102303
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.193-1-rk356x
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.193-1-rk356x.
+Filename: pool/bullseye/main/l/linux-4.19.193-1-rk356x/linux-image-4.19.193-1-rk356x_4.19.193-1-b7bf11f19_arm64.deb
+MD5sum: 569f7f065660c9ee0eaf589758068f28
+SHA1: 067c01bd90ef296b6cdbc93dc97b294c7233769a
+SHA256: bd54126eaeb28c6b9ef658bc7ec62352790f52fbbd4149beeb26a8eb29d45c02
+SHA512: bd88b2bcde40f9a289721af14a95294c103b23133b34ad5ca83b5577b902844dc89bd0a9deba99dad2a4ef45566442d3736b79d749f4d86a3320a9887c3a78be
+Size: 21338692
+
+Package: linux-image-5.10.66-1-rk3588
+Source: linux-5.10.66-1-rk3588
+Version: 5.10.66-1-c42853628
+Architecture: arm64
+Maintainer: runner <runner@3fc3bdf31cf1>
+Installed-Size: 106674
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.66-1-rk3588
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.66-1-rk3588.
+Filename: pool/bullseye/main/l/linux-5.10.66-1-rk3588/linux-image-5.10.66-1-rk3588_5.10.66-1-c42853628_arm64.deb
+MD5sum: 36880ec3b71d437983ae3d18d11f40fd
+SHA1: 2c95e35a4b478e5c9810dd72a7c65b20ff1a61e7
+SHA256: 942f9d7e97c8d53025a6f7bc34f963b209cd64d40c1df77bd7384de16b9079e6
+SHA512: f7927762532752d85ffaee0b8ec57b1cd2db8c53f74d6e13103e35659fd0fed6eb57b243953e4b7f07ea83abaa25941c172babd0e60aa61e9fa1d6d2d5625765
+Size: 21754188
+
+Package: linux-image-5.10.110-1-rockchip
+Source: linux-5.10.110-1-rockchip
+Version: 5.10.110-1-0a544b8c7
+Architecture: arm64
+Maintainer: runner <runner@2597144e02e6>
+Installed-Size: 107904
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.110-1-rockchip
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.110-1-rockchip.
+Filename: pool/bullseye/main/l/linux-5.10.110-1-rockchip/linux-image-5.10.110-1-rockchip_5.10.110-1-0a544b8c7_arm64.deb
+MD5sum: f9d6786a18f82ca604baa4112b7e9486
+SHA1: e828867fc6a4e0b1c0a8150b1204ab43ba92b202
+SHA256: e615f7c7c9b92323c5f7f43bec779e5ce509cc3573cae33d1063ed3c02a014a5
+SHA512: 709074ae64dde42d1e8674f829561f5fdc4ac6024c39f5a82cedf0a7d4ca5cec3bca5feaa8e8f858822caa9f04d7556fd00c580700a3ba06865d9edffa3f09d1
+Size: 22146888
+
+Package: linux-image-5.10.167-1-stable
+Source: linux-5.10.167-1-stable
+Version: 5.10.167-1-a5acb54d4
+Architecture: arm64
+Maintainer: runner <runner@92bbb1da8809>
+Installed-Size: 197830
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.167-1-stable
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.167-1-stable.
+Filename: pool/bullseye/main/l/linux-5.10.167-1-stable/linux-image-5.10.167-1-stable_5.10.167-1-a5acb54d4_arm64.deb
+MD5sum: 6ba87994493c306911dabcb411cefdd1
+SHA1: 95859c8bdaea0534d29e28e78aa74537c9be4351
+SHA256: ba317a4e85c394ac4cf4f11f444157b1daac6e97d9abfab0c82c52f11385d242
+SHA512: 6f9af049cd48a2463a724c4a92b2762440c79ee6457aa366c6147496a95e32a480b685f998e12156c134f260dddd7868e247d3bf64e4754b412fd598369d3577
+Size: 47176316
+
+Package: linux-image-6.1.12-1-latest
+Source: linux-upstream
+Version: 6.1.12-1-129c15b60
+Architecture: arm64
+Maintainer: runner <runner@a7dead837b29>
+Installed-Size: 67946
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.1.12-1-latest
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.12-1-latest.
+Filename: pool/bullseye/main/l/linux-upstream/linux-image-6.1.12-1-latest_6.1.12-1-129c15b60_arm64.deb
+MD5sum: 02f6741f1b5905132271d539efc66ec8
+SHA1: 724f22c19a13589e5b26e539d863cf85978e9118
+SHA256: 54f42d7496e89010b5050eeb75b101bb3811ede3f003b87e02fa521cb8c74492
+SHA512: ea633eb23a60d6970d1bad72ad8d543213acb5d19b4f865797db84c12628b20cf7fd2243e92ff8435b413cfb301f332b3ce1690ff2a80350787423d09de0e4a4
+Size: 27141984
+
+Package: linux-image-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for latest
+Filename: pool/bullseye/main/l/linux-image-latest/linux-image-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: d15a562b257d02b3fabfa5706715ea1e
+SHA1: 157212bcb286c20e5df9e290ebcd8c33a00fb775
+SHA256: ce53d7e3d70f20f395e77bfcdb5f17a240cfb1b0e56ee1bc71bb1a107d83caea
+SHA512: 5cefca22c98e8de44c895b58b64b153f4b92972ea1928fad72938945b09a2b00cb4d812361ac3c1a97cc8ca07e35e57e9584c6577e31fb34cadabe050bf66d2b
+Size: 1088
+
+Package: linux-image-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-cm3-io-latest
+Filename: pool/bullseye/main/l/linux-image-radxa-cm3-io-latest/linux-image-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e915c8b0f7fb562c25a6702c6ecf713e
+SHA1: c2cba6491718e475e3b335bf5de690d6c6ba61aa
+SHA256: c5529c54899c50d00f153ab4a6868b1dbf2349978834ccb5b44a50a6f96c908b
+SHA512: 3063fb5715a6fcaddff3ac47845fdeba90aac6ded7ba153a176d475516d415d6cc953c2545fe8b5a8625695eb73c9cf56f181f8c24424cb642b7da20512a4725
+Size: 1124
+
+Package: linux-image-radxa-cm3-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-io
+Filename: pool/bullseye/main/l/linux-image-radxa-cm3-io/linux-image-radxa-cm3-io_4.19.193-1-6ab941e_all.deb
+MD5sum: fc12637379b007a16f82704f81edea85
+SHA1: 2dd4635ede7d2c5f84da912cc804c1f67d7020e6
+SHA256: 519f197390cc34156a61795fcf1d6d94de7f470dabebb9ae7bee1c63eb4a29ce
+SHA512: eb0653494d721490585aea9938b1f8b9d7ffa6c8e7ea891b18eaefd76496946109430de62ca95304b1439e9916998dcabe3ca3827f942972393370e9eeed0029
+Size: 1116
+
+Package: linux-image-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-rpi-cm4-io
+Filename: pool/bullseye/main/l/linux-image-radxa-cm3-rpi-cm4-io/linux-image-radxa-cm3-rpi-cm4-io_4.19.193-1-6ab941e_all.deb
+MD5sum: cd575d87dc8466035500f16cb10a174b
+SHA1: 0f4d563a512f72f2e252f1c6374e5d5c73ae419e
+SHA256: c44b8d3c8281b7707c317adad1c66847891628be7d1be9aaa4d2b749f56757d2
+SHA512: 33f44d640ef60228d65597b6bfa1fb2745937600ffe1941b2c2c4b398b563b76ac25bcc9d4416c5781157c74c91aae811dcd88268236e972f7178b2e50b007d6
+Size: 1132
+
+Package: linux-image-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-cm3-sodimm-io-latest
+Filename: pool/bullseye/main/l/linux-image-radxa-cm3-sodimm-io-latest/linux-image-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e10226742b84e8a16e7ddf19c984852c
+SHA1: 230ecae0eeff802fa3caf26b9e65c8d469bde317
+SHA256: 87a86c6b630908e2b3c5e1c157e8eb6ca67f830822a3e2a60a2c3cd4cf785a7d
+SHA512: 9d9a19060f21ee8f0ece1e391d399ae52cca4aba915550566e79ee0f388b78265d0c0bad680869d838b0672782e40e5a387226ebd43054540f941993c4db97ba
+Size: 1140
+
+Package: linux-image-radxa-cm3-sodimm-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-cm3-sodimm-io
+Filename: pool/bullseye/main/l/linux-image-radxa-cm3-sodimm-io/linux-image-radxa-cm3-sodimm-io_4.19.193-1-6ab941e_all.deb
+MD5sum: 568e9379783bf31ecb7a26b2a4a6c447
+SHA1: ac85785950bfee4569172e0864e7a1555d7c4f8f
+SHA256: 5e6ad8b0c6fb59403f9bd9c60c2ebf91c662e8a5d9fc0c683179350774390d97
+SHA512: 0a8946703ed765169fd8f1eb17ce872fd936bb613e0e4bf6f5f7670360ed87fc9a8e534c69b77d5e487bd5904e78ca5ed60cda3ba63ec3a666eb4c8f80824c16
+Size: 1128
+
+Package: linux-image-radxa-e23
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-e23
+Filename: pool/bullseye/main/l/linux-image-radxa-e23/linux-image-radxa-e23_4.19.193-1-6ab941e_all.deb
+MD5sum: 9862ad30e4363c2526524b183a9bf74f
+SHA1: 735b5129a3d8b86bebe0ca67631e649d8ba0107a
+SHA256: 29cea611e1b03da1a40ae07b253933eeac6bc230956beeb8edc9788b4d472757
+SHA512: 5131bd3ae2ff18d18b0b0c91b0b6dce37bba38c40c8c8727574591854657942f5d0495de76aa7f9c992e23f6ddb0fc9503c05c05833f9b8f47b355660f9d99f8
+Size: 1104
+
+Package: linux-image-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-e25-latest
+Filename: pool/bullseye/main/l/linux-image-radxa-e25-latest/linux-image-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 7952ef58410e69f2e17a878bbe09d574
+SHA1: 66e0f9f062a638b7c25388509271267dac2b8e40
+SHA256: f230ac9b9b984c4d23ebe1ee5f73479568a6eec5df8ce3fd1e59fe0bd7b26b04
+SHA512: 664e2fa4f4c435e35611a7cc7d60927577a04eb8e529b2264af94058aaf69fd8115b706dd9df71c5d7bbbdbd367ff81a51f457a2f2b6ccc1d77022b4a5459440
+Size: 1116
+
+Package: linux-image-radxa-e25
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for radxa-e25
+Filename: pool/bullseye/main/l/linux-image-radxa-e25/linux-image-radxa-e25_4.19.193-1-6ab941e_all.deb
+MD5sum: 370cd8dd525bd639c6866405345c3f8a
+SHA1: 761e9dfb6c95e15e829ccc27be8ef62d77e80936
+SHA256: 837f7ec1f18a1a8e4f7506b9f8e0832b4326f9f2c8982fd1fae818e23fbcf901
+SHA512: 09cffe1d02e471e8ff4a16efef85f347ed4f8f699aa0e1148f0e855374b6f46656ef5b7013ce3b633ddd9770251e70889ad54ceb8ece274a49a2bb2561a2843b
+Size: 1104
+
+Package: linux-image-radxa-nx5-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for radxa-nx5-io
+Filename: pool/bullseye/main/l/linux-image-radxa-nx5-io/linux-image-radxa-nx5-io_5.10.110-1-71086bd_all.deb
+MD5sum: d807496184c5e3f47b07c93363557b24
+SHA1: 9584b606bfacfa9e8782b1abb828589d67a798d3
+SHA256: 96accfe8ffd61f4cfa09f9b9be496c01c221cf116d5f343e5ef8352d5d2ca438
+SHA512: 5fd90aa9f40bee126694cf966136e39df81b8d160e735b505a0f0cd964bf30279dad888c53bebea1030262db1014ff5d85cd8047ba90e0d684dc4a12adee4895
+Size: 1112
+
+Package: linux-image-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for radxa-zero2-stable
+Filename: pool/bullseye/main/l/linux-image-radxa-zero2-stable/linux-image-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 353d443fb13c9947b3eaa142e78c7517
+SHA1: dc57db501021e085f6858d32d140db513cb3154e
+SHA256: 25bfc66f72adb1096b54c19ae9065d4004e1dc079caa6d8012fd546db07b5dee
+SHA512: 5e5d371a1d2c7409547657ffd269900071664a94983cd9428f4dc0c582476c89804beafc8f526dad5132ac2b874d269446b859f258d301466ff1316809cf4af2
+Size: 1124
+
+Package: linux-image-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-zero2
+Filename: pool/bullseye/main/l/linux-image-radxa-zero2/linux-image-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 7f04740e2844d3ddca412a8948c0187f
+SHA1: f663bd81526ef51f3b2d3834b9aa4714eb460d09
+SHA256: 7b6c1074c5f4fda61a6c265f378901ca7d8e2ac37a5d25dc85762f9713d97eda
+SHA512: 0ab28c70617a8729e9870ddba20d2d790ec663f101e865f31f0f07f6b62e1bc0cfa2a4dca9703300a2cfe17fbda80d0ba9f11fe20b53cecb24ce3e85214460b1
+Size: 1108
+
+Package: linux-image-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for radxa-zero-stable
+Filename: pool/bullseye/main/l/linux-image-radxa-zero-stable/linux-image-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 439f575f0fb0ae713a3290bd8280c2f3
+SHA1: de559f618302f2e06a31f569af9b1613e49a7edf
+SHA256: 8c4fe59825875fdf0b890abfdbb99a6c568dfeec26762b2bbf8725a943287abd
+SHA512: 5abc37b0e1b8e2d957a6f6fb786105033b44a0e0a1f376df5836d20a6603cbf1b6f49ee1b67f7b3455218e6da0f2f6b161b75cdf2e6e54015f884952a89e13e5
+Size: 1116
+
+Package: linux-image-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for radxa-zero
+Filename: pool/bullseye/main/l/linux-image-radxa-zero/linux-image-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: c9ef6ff15b01c387ea097ff22959704e
+SHA1: 33d87cd33455b99d6daf57a23a565e1ce9cc91a7
+SHA256: f41d49bdbbe9271d213fb5c388d48be63e9c1c9688f77e847a39578533052065
+SHA512: 22b6ff0ea9906af39ba3f7833ce8359614b7ae273a30127e242fca4f305ac729eca24b1acdb3de76edb6e441205b35a16b96b5c5052dea2d757f46e61a98c4d8
+Size: 1104
+
+Package: linux-image-rk356x
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rk356x
+Filename: pool/bullseye/main/l/linux-image-rk356x/linux-image-rk356x_4.19.193-1-6ab941e_all.deb
+MD5sum: 98dd9bc985cb9662ef1bb9ab4d686fd9
+SHA1: 59c21d25b8352559bab30d6b75b92bb652e96cb4
+SHA256: 0c0c562f428fffa804646f0e888e6a42d74f78d6260b635380fc1ca762d2f558
+SHA512: c8f1d084c948890e0176e560a448de55890ad4794b99e58227aa87eaf0e5844f778ade7fbb910a4371c0ea762a38066a69243f3515792a14adcfd9e5429abea8
+Size: 1096
+
+Package: linux-image-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rk3308
+Filename: pool/bullseye/main/l/linux-image-rk3308/linux-image-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: f4f021789003e4fb9abfa14aad7f6106
+SHA1: 1f25697a3a4b708af468c83afd8159af0a2403a5
+SHA256: e16e164185ee8d08f199493a1785ce16a248b5495a4a61d28c4c43eff8d3a1af
+SHA512: 93700a43a2ad94dc573d41e7738f4ccec46495345eb23afe1446c3dfa12b6732395d4deb10d85b1380de89b4a26bac995b26c2625a8979f92919ec35d96933d2
+Size: 1092
+
+Package: linux-image-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rk3328
+Filename: pool/bullseye/main/l/linux-image-rk3328/linux-image-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 98aee67961ed4c31a5acf9257a3166da
+SHA1: 11767b486df0a18055da0615e39611bc45abe65d
+SHA256: f477fcd7561a06c5ccebb4f54f737d240176fa100f9706bb8aa914953e0ec4ca
+SHA512: 2abd7f550a0cfe87a961873ce963630ebfbfcc17dff3d6098fde3c07c7898ecb6bcfd7580a102535c948dd18661b6a4a7a01efd9a7296f1098d5d4146d40f36e
+Size: 1092
+
+Package: linux-image-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux package for rk3399pro
+Filename: pool/bullseye/main/l/linux-image-rk3399pro/linux-image-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: de8467065aa7e39ad25ca2e47fd7c91e
+SHA1: c2206dece587e28213d7f58ddff0743289c1f115
+SHA256: 988324e3726e285edd7d89132a6b486809cc07aebb5fc2c7e28ca07c4de44560
+SHA512: 621c3d02de117607709b4e9853afbe392b9e99063e701b3b8114fd0641a296d549a241a8fc1d173af4aaed2df6ac218636eced4f357e679a735946a1c0048e0d
+Size: 1100
+
+Package: linux-image-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3399t
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual Linux package for rk3399t
+Filename: pool/bullseye/main/l/linux-image-rk3399t/linux-image-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: 68e6f8a6dfdfcf388796e593fee985d8
+SHA1: 215c488ee6b21a471c47287af94c917f4cbbdc06
+SHA256: 9b768be473787cfc3f2ed646b7eedebbdf32b3ff4bf43dc7f6d6640e3ac593d3
+SHA512: 764390f786e02d05af62e52efbd46fad41c1ffb9d11f4f3b24bbbeaee3da0fa0895ce1d56d2572917cbf0c08a667ad945890c280c79eb41c47209384f470b352
+Size: 1100
+
+Package: linux-image-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.154-1-rk3399
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual Linux package for rk3399
+Filename: pool/bullseye/main/l/linux-image-rk3399/linux-image-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 4bd67ee45bf5450cc644b4d290de6370
+SHA1: d537aa8d0838179e212456674a635558d9caea11
+SHA256: cf9e90f837edd8049bc69de30e9ee8255340a1bcb79ad37a78e2288f3823c12e
+SHA512: 52275f95d7c6a651f55d9e8b4bb31a6cd59a83cd1b1380ad8b4b0859d408d49c6015500c659b3c12f362a86fab41b36d409041ca6b6d4058dfc2bdcaa65498c2
+Size: 1096
+
+Package: linux-image-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.66-1-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual Linux package for rk3588
+Filename: pool/bullseye/main/l/linux-image-rk3588/linux-image-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: 426c2f3a450a0bdec361d79387a1c40b
+SHA1: dd7ca1f2277c1e1c403aaa4268f47b75d8b7134f
+SHA256: 50754c660d086a324863d0df56d4b13f665b02b5e1c4b887fc93b19396f686da
+SHA512: 8aa50fcae00f253ecf83066e0d9c6393c0887300ab1ede81d83c5daead2e0083c6921dbac1299bb5303de76628294124b63b0444fa57e6339b215747359fb28a
+Size: 1096
+
+Package: linux-image-rockchip
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rockchip
+Filename: pool/bullseye/main/l/linux-image-rockchip/linux-image-rockchip_5.10.110-1-71086bd_all.deb
+MD5sum: 66c4b5ff267459f5e61feb6594234b8a
+SHA1: 3f7f0901f98ccc3dda7c70e1a84c5ba03b9bd2da
+SHA256: 19ed75126abc75fee80a8417bbf3ccba607b03d2fe2efcb0e85342e1c957fa8f
+SHA512: a8a416c5a8644ffaf4242394d0df2937b3fc423d9f3c73811f30a7082c37f64e6b67f8fb6090adadfb6968694b91b5c39d65432284edda56c08b115b0053b175
+Size: 1100
+
+Package: linux-image-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-3a-latest
+Filename: pool/bullseye/main/l/linux-image-rock-3a-latest/linux-image-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 8491618ecb36fb2303a2df5e01bf148e
+SHA1: d5aa93ff0570dcd9e286bedede5d6640314b5140
+SHA256: 8b11bebf87fbe8d5dd55a55a915e7d22cb989f0529c5dfc35516c2179be27eaa
+SHA512: 615a0eaf63f13138caf0c29a18a3702578aa5abb80e5701fc95bed98dfc4f62141796c83f08adc84e74ae512d9ecf9ce2281a77dcdca9597af9998e4e47e6580
+Size: 1116
+
+Package: linux-image-rock-3a
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3a
+Filename: pool/bullseye/main/l/linux-image-rock-3a/linux-image-rock-3a_4.19.193-1-6ab941e_all.deb
+MD5sum: 7a0c116c5855060a2091f94af08e97d0
+SHA1: 3af6829136be3506159b56320aa32b7a73db07e0
+SHA256: a719e3dd7736b52848f60485b622ef323553550248dbc1212ee3412f5e27ef0f
+SHA512: d4598d37e1da682fe2f28e5758902854e440619def5fca008fbd449dca27f06df8ab173d803660bc7a86aea69ab0a3bbff38bffd9eee798fe189bd4785fbd7a7
+Size: 1108
+
+Package: linux-image-rock-3b
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3b
+Filename: pool/bullseye/main/l/linux-image-rock-3b/linux-image-rock-3b_4.19.193-1-6ab941e_all.deb
+MD5sum: 74f3748bd041e25cd12b54d9c592c507
+SHA1: 8ac8dc41f72afd69833f9b744f88c03d4c11c33d
+SHA256: 30c7f951422005939d9820efa5f42d89b5400ce17cef3e0d3448ace6a67fe085
+SHA512: 86222cd1f630daf5a306613be526b9ad95fcfd19bd5e19064356032a8cffe15bd7ea8d0c2014f26c0bf8e7975c0306ebd94965617434a2a38b23fd76fa6f8c2f
+Size: 1108
+
+Package: linux-image-rock-3c
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.19.193-1-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual Linux package for rock-3c
+Filename: pool/bullseye/main/l/linux-image-rock-3c/linux-image-rock-3c_4.19.193-1-6ab941e_all.deb
+MD5sum: 382874206aa75022f07d6619dfd0c747
+SHA1: cbcb2b7c5da85ddfada7a9f52beb534a77abf01f
+SHA256: 8e407d630337980200e75d7256544a912485610421334e34339ecafb939cd2a9
+SHA512: c792c667a5e1bb2f0a7566e55b9398c28e2a03d8d5969fc9411b97645e6052cd90037a612bc0514d641b7c3728c7a924bc0be57f52c17ba0cd812f351f049a5e
+Size: 1100
+
+Package: linux-image-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-4c-plus-latest
+Filename: pool/bullseye/main/l/linux-image-rock-4c-plus-latest/linux-image-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 780b4d4857d8007465db63bfc91a34df
+SHA1: 82d08a0173c777a21c3dee1b2b3fdf66eb3abb1a
+SHA256: dc33299354e8fee266a5ca3e84a13a4e9726796f5569d9e0699fb5c5da59750a
+SHA512: 2f7db520370a69eed02d4ac749c189e2b6ff96f1859dbe240788781568926f0a86c2b5db8aab481dd54b0f0b04d9a34eb7764c2879b7a74f2ea6e7a74aa22110
+Size: 1124
+
+Package: linux-image-rock-4c-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4c-plus
+Filename: pool/bullseye/main/l/linux-image-rock-4c-plus/linux-image-rock-4c-plus_5.10.110-1-71086bd_all.deb
+MD5sum: 18ad55cdcf0a04b5e052c1d8632cce1b
+SHA1: db29b020720e871c9b85e82fa62b721ab6804ea1
+SHA256: e8356b58d12e89f4441999478e7b25982190b653f312be654dfda1ff6fc5138d
+SHA512: e0bbc58acc247d16605dd7628b753462e9fbfb9e36d14587b893f265bb5142a7150d7b8002cb6b592545c8f0ed6b6594275bc03d9e196705103d140d33c29dfe
+Size: 1112
+
+Package: linux-image-rock-4se
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4se
+Filename: pool/bullseye/main/l/linux-image-rock-4se/linux-image-rock-4se_5.10.110-1-71086bd_all.deb
+MD5sum: 253e4eb8b93e834f58e0e641c5012e0d
+SHA1: 67404448538e64d9b8cb4725ff70e20964de4aad
+SHA256: 57bc04394e7f23cccd1d2220b77ffe505abc85df776b98766e0c384261927327
+SHA512: fb95779a8e10834ec9666c813e7f10362874f24a38ce8ed1833c11f94b21efe25bb9ddc92afaf3e71b64446d86c74428a4ffa888c8270886e6652268ac2c25b1
+Size: 1104
+
+Package: linux-image-rock-4-core-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-4-core-io
+Filename: pool/bullseye/main/l/linux-image-rock-4-core-io/linux-image-rock-4-core-io_5.10.110-1-71086bd_all.deb
+MD5sum: e4784c71d1b1057de703139afd50e6ea
+SHA1: 0e6d38c5cc7100362ccff68d174077b8cb110da1
+SHA256: de52705e859935238dbae1a6733af62607bd7ca57550cae0cc28475cd9079808
+SHA512: 4fe7b0869731f10e19ac3e2c1802a38023230a4f85ad267b1bb10f707d17c637cb27b25743a21d983aa0ca2f8093feafaffe8ff829d1561c0243bdf099e004da
+Size: 1120
+
+Package: linux-image-rock-5a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-5a
+Filename: pool/bullseye/main/l/linux-image-rock-5a/linux-image-rock-5a_5.10.110-1-71086bd_all.deb
+MD5sum: 28e28c67f99638159c55a0da947107f7
+SHA1: 83077ab8221794f87ebc5effc7aeb3b73699e014
+SHA256: c650cb845f145777b2fc66a6d1384c7ed96ea57e8677d9711b0bb28c5610df29
+SHA512: fa7cacfa1f75dd6e83aa1eabd8638fe4043e8b34c2d27d4f93d34e9ebf5939bdf6c18fe288b8dd2474b15ce8640db68aa464700c87b599242cf5652783b79826
+Size: 1104
+
+Package: linux-image-rock-5b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-5b
+Filename: pool/bullseye/main/l/linux-image-rock-5b/linux-image-rock-5b_5.10.110-1-71086bd_all.deb
+MD5sum: d1188f9dc52fdacd8ce6a077b3ed56a4
+SHA1: 35069ca5a4a6fdf5a08a8c6df6c0367873ef053e
+SHA256: 76b68f31e2ad5d9df43c0e3adff1491c29911aed44e52d3a784c89fa8decce46
+SHA512: 54f47f1a704e3102277c76d3d8157433a5a6fe29132a09cd7496da626a914fa833ccf70a094b9af408fb4c4990a4faa68ee0c463959db5571f9f3c2bf3c75eb2
+Size: 1100
+
+Package: linux-image-rock-pi-4a-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4a-plus
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4a-plus/linux-image-rock-pi-4a-plus_5.10.110-1-71086bd_all.deb
+MD5sum: 77651acf35167b4e70ff79c71878bb41
+SHA1: 09a3e1708b51ea3653898b696b3de2c95802f106
+SHA256: 0852a942c471edce000e85a5ef8be830d818b4e189a32807b2fbac629630b477
+SHA512: 751895f7dff71a18d8da80a098e294d67da4dce322eabb05942b7a14755c148333dd4070bd856c1e4f368b6909e0d0dfd3b3d32752d5686fddb3c5eed257bca5
+Size: 1128
+
+Package: linux-image-rock-pi-4a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4a
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4a/linux-image-rock-pi-4a_5.10.110-1-71086bd_all.deb
+MD5sum: af1ca3368609426c201ad1872ddeeec9
+SHA1: 18bd4c04cd9da9c2770630e55be3532c4aface80
+SHA256: ebca5140588659c4c2e16fa959108d6e716b1e91ad9f79e31656a5264442000e
+SHA512: 531e348b773c42414289f2e7b7ae581ac5cc5a968b0eccf5a70d71fc390b02e06e1664fa150c4bec07ef34f33ff4e1f5e0eb04c640712eadeeda465e7ed04e60
+Size: 1112
+
+Package: linux-image-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-4b-latest
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4b-latest/linux-image-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 89c0418d742500f37e8f20208cd80406
+SHA1: 5eb42eb046bdd75ff77aa33d85e4ed0a6ece4469
+SHA256: 09fbbbd71e92e27068816352a1460c9f890dc07ce2610350a1ca877f444c2bdf
+SHA512: 65f3f2fa2d64719a59d012a425fa15bc1a9879c1c0f0a83fb42b905f63a4c02a7c20d5c567cb8026beb11df390d409db7fb3135505f6ce1ea0d12f52d1a66992
+Size: 1124
+
+Package: linux-image-rock-pi-4b-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4b-plus
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4b-plus/linux-image-rock-pi-4b-plus_5.10.110-1-71086bd_all.deb
+MD5sum: e013d1af48dfebf59bf16bea882fd0b9
+SHA1: 354bd8309f34e9f846f6cefc92bc754404303e23
+SHA256: 58380807e21496efad25f24b9fdd350bae8dff8a96639177017a73d8b30bb618
+SHA512: 15e6c481f6a948eb0d442e7a531a0fb9c4eb5e7955ba4d53a2fccc310de5aedb67b718ae38f1c078ce3d6ee9e7bff5c40d5bec690a6372b0a9844f2dcb5be239
+Size: 1124
+
+Package: linux-image-rock-pi-4b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4b
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4b/linux-image-rock-pi-4b_5.10.110-1-71086bd_all.deb
+MD5sum: 7c9190719e15393cc614db29e713a394
+SHA1: aecdaed75ab845dacfede8c75c894ede3c6c19f8
+SHA256: a459d868578aecf4f4d8fcad66755b08e2bb9d394e39538e74c0c6d32b87b84c
+SHA512: b02c3de7e39a403b8a3569b8d4834f5eea5ed2ec56a824f61260513824521d1302658cc068db206718942c19fe643ed72f6388a9fcaee6e86c5ac0b539730a6b
+Size: 1112
+
+Package: linux-image-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-4c-latest
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4c-latest/linux-image-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 65bcade2b42e0b2cdd822778d70dbd55
+SHA1: d281d12c591c7eceeb2f2d25134a6599a5e2c9fd
+SHA256: 5c38691dd6c8bd73d5a37c1389a9aa68b9aaad3df456d2d0698e904ec2c4b877
+SHA512: 0ea5585d9113ecb105009107ee127ec1c4c65e116bb85375547e16bd61195f11a10a053a181d957bfd34a3716c3385b1c11d040ed625f148fb1c9ca263a969f7
+Size: 1120
+
+Package: linux-image-rock-pi-4c
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.110-1-rockchip
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual Linux package for rock-pi-4c
+Filename: pool/bullseye/main/l/linux-image-rock-pi-4c/linux-image-rock-pi-4c_5.10.110-1-71086bd_all.deb
+MD5sum: 16fa29be514f272285fb979962471ae8
+SHA1: b56dbb62391acdb20ddfc81a9ca53246fb0e2528
+SHA256: c2fb1aebeb8952e82847d4c380feac033e6f374c14574e95b8022fffa27de243
+SHA512: a9df6b9b1a058c58fd0f3cef0d5f24ebba67b1801e2015f1cfcaab6bbb5883bd0d32f40b56cd4fec440c34f732c30b123730800528e2062db3e6e616f5804e7d
+Size: 1112
+
+Package: linux-image-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rock-pi-e3
+Filename: pool/bullseye/main/l/linux-image-rock-pi-e3/linux-image-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: aad6f4efd927865d3c07fa0a2f53c88c
+SHA1: 1bfae4af8763944c10867d1659064c46502387a1
+SHA256: 6be126fe265c9da776751db2344328f40208c44e57ce434e6519705eeb583da8
+SHA512: 38b241b6cfdcefada286181959d3832492db2422793df5b3dcd40ca9efdedd8807ba01fc3dac470b59cf37823fb786adc40f75eeab1fb8d81d10101bfc387a84
+Size: 1116
+
+Package: linux-image-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-e-latest
+Filename: pool/bullseye/main/l/linux-image-rock-pi-e-latest/linux-image-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 323fb7b1dc4799bc3da8aa4bc3b52867
+SHA1: ea626b16f14c28fd941b4a35a4f05457b0d02162
+SHA256: 24e2f368238ae5b638be8ca4f89fa83a6fda65436c6de22d46c38a6f938ea212
+SHA512: 404517ca6f589f96769b2ef080998104641594acf5250276c0b033c6a4c8f9bf7b57692d9777af0fac376420376857830b09a4e00b18332c56af8c425615ad51
+Size: 1124
+
+Package: linux-image-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.194-1-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual Linux package for rock-pi-e
+Filename: pool/bullseye/main/l/linux-image-rock-pi-e/linux-image-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: a08485c1550e22f4676bbbf5f666e3b1
+SHA1: 37f1be32330ec8be88c8bc1039c7c546a279d2f1
+SHA256: 632c0f61981a3f240bb36333e918f30aab1de2f2da60c4d473d50a85a30d37d0
+SHA512: 20f5620fd57ac75c1b414a302807068fa36876fce48e81716945a8c50f5f01c8b1f3482461cf785757dd6a98465ac586da5ee8baa3a2e54c5955488691019850
+Size: 1116
+
+Package: linux-image-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-6.1.12-1-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual Linux package for rock-pi-n10-latest
+Filename: pool/bullseye/main/l/linux-image-rock-pi-n10-latest/linux-image-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: e7796f2bf65e1e127a4c4fa093d1a80e
+SHA1: 6c623d54bb96d7e37151715671d36368ebd6162c
+SHA256: a8a4925e3a24c419e9919f54e9252100bb25cb0b6a12cad9fb11d052997ecac0
+SHA512: 50abfd3bf21b1b70c02362b3f9600d78aa1d91c6c85c26cbf26a8fe32d80c6eb22641f06e09f0008eaddb5b68e238d67659d949fe6abfd34eba7da835fcc2082
+Size: 1128
+
+Package: linux-image-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.167-1-rk3399pro
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual Linux package for rock-pi-n10
+Filename: pool/bullseye/main/l/linux-image-rock-pi-n10/linux-image-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 515639bea5109d5390468d0a57299038
+SHA1: 3450c3c2c07d09176b1e54f42e25ce437af5afcc
+SHA256: f14a109edd671030abfbf732dab850e4c83fa3358ae30ebe58bedee09f885552
+SHA512: c029e01a89ed41549b4f0e41499d7f80d573a0dce37228dbbba702074d17d97637915437ebc22257202b640dc9d12a98a225c0b3c1934fe8b32f5a4ea0cd95af
+Size: 1120
+
+Package: linux-image-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rock-pi-s-v20
+Filename: pool/bullseye/main/l/linux-image-rock-pi-s-v20/linux-image-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: 29eabf4f996a6886563b6026b511f8b8
+SHA1: 7f343e70a2f99c6cba13db9531e669a6a3bbbdc2
+SHA256: 182be695d942e43a5d9234af9ee59b1f3bddebd87255c23c59bf909aa2dbf766
+SHA512: e1780ff6b1cf9a47847e9dafb6409fbab8b0d4337fbf7c5b749598aab90586a1402f23754fb960d523d7019fcd9f74c8f43fa12311b819b8db752aa89f0f9d0a
+Size: 1120
+
+Package: linux-image-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-4.4.143-1-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual Linux package for rock-pi-s
+Filename: pool/bullseye/main/l/linux-image-rock-pi-s/linux-image-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: 7a5f62f187a526d29e5b280160ee629c
+SHA1: 8179d85cacfa48c7865ce2e796502da2cfcfdd77
+SHA256: 52ffd385543ffb5ae8883b00def65d6fb7ddae141e2eb6911ce37797f6dc0686
+SHA512: f2e1c836662f4a51e58d4de18953fe90867babe949d96b73f4e085e9487bbeb7667c4534107a93bb0831edff0fc0f133407edc2d78acd457c8502176bcd99976
+Size: 1116
+
+Package: linux-image-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-image-5.10.167-1-stable
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual Linux package for stable
+Filename: pool/bullseye/main/l/linux-image-stable/linux-image-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: f312c56ac496048e9ec703b407657e33
+SHA1: 40f251dc8f5d685d8237087ae7f0e72cbd36a58b
+SHA256: 7b723475ef52da5fcf12522c34032ebeaebd917ff129d68a68a3cabca413b6b4
+SHA512: d742ec325ee85ed590713b2c968922ac5399bf75f00c232e6ac28c884711abdc814efa73c47adf07fa511f42a8940c7ac156fbddd1b070775bf311a1da343005
+Size: 1092
+
+Package: linux-libc-dev-4.19.193-1-rk356x
+Source: linux-4.19.193-1-rk356x
+Version: 4.19.193-1-b7bf11f19
+Architecture: arm64
+Maintainer: runner <runner@1466634dc2e3>
+Installed-Size: 5375
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.19.193-1-rk356x/linux-libc-dev-4.19.193-1-rk356x_4.19.193-1-b7bf11f19_arm64.deb
+MD5sum: 7aaa9dbf23c27d47b517464259e26aa8
+SHA1: c21263087e92929d68d6c246516b667337d4fc5a
+SHA256: d4037d01bd85165c43d8877806fbd124b5272eb2e3b3f6d633d421ff4ce69ecd
+SHA512: afccf963be0dee523017962abd4c5e510738883dc71cf719d0ad97fcfc5ed04d4d95b42f62050af469eadabd484e7f4a7b1027d89c30b48bab7e9303b57e2258
+Size: 1028656
+
+Package: linux-libc-dev-5.10.110-1-rockchip
+Source: linux-5.10.110-1-rockchip
+Version: 5.10.110-1-0a544b8c7
+Architecture: arm64
+Maintainer: runner <runner@2597144e02e6>
+Installed-Size: 6267
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-5.10.110-1-rockchip/linux-libc-dev-5.10.110-1-rockchip_5.10.110-1-0a544b8c7_arm64.deb
+MD5sum: bb43afccd3218ea5c8947d1c90f2f4fb
+SHA1: 6e2d56639ed8121f09afab964e3a925203b8af2e
+SHA256: 4f16f77b6eef8d116da1b01552d2a1fd1aec3b5f146a678ccb57c516dac1bcea
+SHA512: 686c722ac5330614d69de0f80b903a57ec2cf14d3676318f3dcd33a3dc5bf04165f6694503ccd023634b4756317dfd0c38154244fadc95d18c93d7937652f0a1
+Size: 1192020
+
+Package: linux-libc-dev-5.10.167-1-stable
+Source: linux-5.10.167-1-stable
+Version: 5.10.167-1-a5acb54d4
+Architecture: arm64
+Maintainer: runner <runner@92bbb1da8809>
+Installed-Size: 5795
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-5.10.167-1-stable/linux-libc-dev-5.10.167-1-stable_5.10.167-1-a5acb54d4_arm64.deb
+MD5sum: fd574bdb96af85df660e635a5727a3b6
+SHA1: b3c442489a1e26e8502bdaf1b71b627653ea9196
+SHA256: 3fc29d57a37d84fdfacde3a1190fbff16fc7b54e94e1a2723dac91c84aeb8150
+SHA512: 36cf0332bc96ef950090c6f4463b2dc46bb635d0448f38155546a340b362a4948e540399d9a59c66e53d84091e996ff4d4101e5e86efeac09a81166378c9f4c2
+Size: 1117788
+
+Package: linux-libc-dev-6.1.12-1-latest
+Source: linux-upstream
+Version: 6.1.12-1-129c15b60
+Architecture: arm64
+Maintainer: runner <runner@a7dead837b29>
+Installed-Size: 6490
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-upstream/linux-libc-dev-6.1.12-1-latest_6.1.12-1-129c15b60_arm64.deb
+MD5sum: 4d30086ec53a3de3aceb5472761907ef
+SHA1: 2df70a51f77ecca40c24929c63b3ca7ddf5b38c4
+SHA256: 17a4d8f6dc711218d6bf143e77082a81b560ff767bf4596d17d9637574a0419e
+SHA512: 849e7f3417a1c530646ed6d621d6a17ca8523852d7ad7398706b9f41883159d60cb4a4d348c11d25bb122abb9143e9933c0124357a6a3812d9d70f4339875a53
+Size: 1250360
+
+Package: linux-libc-dev-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for latest
+Filename: pool/bullseye/main/l/linux-libc-dev-latest/linux-libc-dev-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: d495a3d9055250852eb3f75e8de53b3e
+SHA1: 2b5d181dac489e0da2fb313b5387fc1af2e52093
+SHA256: 6231e7472c1a9d8bd3d0e9908cbbe1e572f228011d91ced9e548008f270c81e9
+SHA512: 1c484cbe65be22c52ca766b54e54e7b9eb49d0b019cb7e9488d419f25cab911d922ce198c7a05ed039672f347808ffeba2eea3185a69e784f8bb700ebdc21a31
+Size: 1124
+
+Package: linux-libc-dev-radxa-cm3-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-cm3-io-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-cm3-io-latest/linux-libc-dev-radxa-cm3-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: a106b25e876522c65d40d84ec56bba49
+SHA1: 761ca7099121394e229d40b7f948c5b7e905163c
+SHA256: eee1dfca85afe839ad98ae63e435ba82e8b51901e51e1634fdc3a55e50d53afc
+SHA512: c1de005d38c4175aabf03fd33811bcb7b940beccc0cea16b3145058bb0595eb5e15823c745e3ab6d9a544f91dd26555f80247a35d0c4f1cedb9095cbded9e588
+Size: 1148
+
+Package: linux-libc-dev-radxa-cm3-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-io
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-cm3-io/linux-libc-dev-radxa-cm3-io_4.19.193-1-6ab941e_all.deb
+MD5sum: b11f9c89c35513dfd79fc0c219f48724
+SHA1: 980ea8fd6783dd9966a55e76d0f27fc8e9dfd832
+SHA256: bc7819bdb4f179f79fbba81dc8cf6b18b6929f1bef863cb5cea001d9c0c5f7a6
+SHA512: b1e804b55a607d547d4d9256263f3f2b5c3c57869095ea364982748d0a070d498e87491a8fd215487b5639ad2c754b49f68c76ae52f65fa9e8308ba7743eee72
+Size: 1140
+
+Package: linux-libc-dev-radxa-cm3-rpi-cm4-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-rpi-cm4-io
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-cm3-rpi-cm4-io/linux-libc-dev-radxa-cm3-rpi-cm4-io_4.19.193-1-6ab941e_all.deb
+MD5sum: d35ecb08a486c72c2352cd87cd53f2ee
+SHA1: 413b199416d096f96ea5b66eeec2088b2270d7e4
+SHA256: 95ecb8d06a6dde7e6805c1040a9b68e58842e21655c8fdcbcf901b4892ddc9d0
+SHA512: f10143f99407e2d3c1355b9c35976f22f372ce34a8811ef64e828a7b680c034294e689e6372fdfc5678e11c1591d28a21ffd752164c84dbd65d2379b6cb062e0
+Size: 1156
+
+Package: linux-libc-dev-radxa-cm3-sodimm-io-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-cm3-sodimm-io-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-cm3-sodimm-io-latest/linux-libc-dev-radxa-cm3-sodimm-io-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 85fbf330c04da67d8b004407b4a97e12
+SHA1: 656276dda7936ac19f2f80805245a6ec61beeed7
+SHA256: be830ae3288b3267c2457a0e6371bacd865cd010efd9464c8f58a826589c2b30
+SHA512: 76035d2c8a1890066f850bb867cfb2e0e43948483b4eff4a98167ca6fb316ae470cb1aabfa5120c0f336dc0e098a56a73b079b43eac2e08b36ac2fa7d7807306
+Size: 1168
+
+Package: linux-libc-dev-radxa-cm3-sodimm-io
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-cm3-sodimm-io
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-cm3-sodimm-io/linux-libc-dev-radxa-cm3-sodimm-io_4.19.193-1-6ab941e_all.deb
+MD5sum: 08f83d2a08edb1c869d2d6bb84c920c9
+SHA1: f8a4be3604f01e11e803bb63a474ea944c41d4f6
+SHA256: 60520a9d8854619749c8f9a01f8ff1074748500f1d089df5d469e2986463f160
+SHA512: f7b0f21f0608e670018d46ad3a775871bc1d19e0c9d6c40783b7ab656f3623070087852fb636099f64e47e72b436958840ddc4de65db3c71a8f8b6f68f3b28cc
+Size: 1156
+
+Package: linux-libc-dev-radxa-e23
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-e23
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-e23/linux-libc-dev-radxa-e23_4.19.193-1-6ab941e_all.deb
+MD5sum: d208d0856d92433379a0c9e2f5f8dd24
+SHA1: 24cd4a402692c4126f9ea20ee8b4ee83c160daeb
+SHA256: 946ac76c1c33b2c24db215b50d957c39645624d7a3d9ee84b451f054da9d9d6c
+SHA512: 4cd1f7264662ad05fb58411da69f06c3dffe20b8d77592d465a8ecb1539999a0872a555239c5759c139bcffe456515dc12c4a98e99c37636b02f8ea285bb9910
+Size: 1128
+
+Package: linux-libc-dev-radxa-e25-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-e25-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-e25-latest/linux-libc-dev-radxa-e25-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 170c2102085be9d67046f9121089a66f
+SHA1: 0b1488ff1af40473637309f26c0a19fec60fd7a7
+SHA256: 4ce4ba9ea00ffcfe1d4cc1a96b20a75d0cef7d1062ee64983bb1d9ac37ce8cfe
+SHA512: 76dd3d82dd5e0561dd09833b7dad81412297b2fa28ab7c5dfc74f685c722535399e3510eb85e731d4bcdff2f8a3fc129f6ab0cdec8864f2221fb807a7a11fddd
+Size: 1144
+
+Package: linux-libc-dev-radxa-e25
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for radxa-e25
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-e25/linux-libc-dev-radxa-e25_4.19.193-1-6ab941e_all.deb
+MD5sum: e7f9e513616fd08b36a6f2c653634a66
+SHA1: f3b1e8b197ad413d4c8affda8f7e7718a4b00bc4
+SHA256: 057922239ecf324891b97be7ae9460869b8f9e3e9c8128dbddad950400e79b43
+SHA512: 78c54be245f5c1bee7a2a2d1838d274dfeb2e23971f8e07650012c1340cbee69c6316c47e85bff66041188004576116556afbde123cbd57a57ff68f5e9478945
+Size: 1128
+
+Package: linux-libc-dev-radxa-nx5-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for radxa-nx5-io
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-nx5-io/linux-libc-dev-radxa-nx5-io_5.10.110-1-71086bd_all.deb
+MD5sum: 401da42c114158caeec6bebc838b2271
+SHA1: ce36fa12893eabd77ba0f58e2b419ac2ce7ddd55
+SHA256: e6e54e327832493740b2d8ec508f2ed37cf02a2bc39fdcc02080ed4133dde9eb
+SHA512: 34ff24d293f1d5e5405e095fc9117eabf3125fec3be78835001af996c2e65b043b283f1adc3d73260360404369575af4653df42dc7c4e38b4428a2075ced8349
+Size: 1136
+
+Package: linux-libc-dev-radxa-zero2-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for radxa-zero2-stable
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-zero2-stable/linux-libc-dev-radxa-zero2-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 5f9cc23771daed1947896198b6a1c048
+SHA1: 7c018448797fc4c7b451b96ce70dda162e15e595
+SHA256: 3fd3b34680616ec081e8959c683b93a96f25470ebab28a250722d22cd8ebf05e
+SHA512: a5fde048b84ce2e0037cfa3f3c022904e0fa9f8afb2234ade3b2decac6fe56d5ef407f7268dc783a1d1fb3e26e02ae40c215ef2af21591f3b4c680cff2045a22
+Size: 1148
+
+Package: linux-libc-dev-radxa-zero2
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-zero2
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-zero2/linux-libc-dev-radxa-zero2_6.1.12-1-bb9219a_all.deb
+MD5sum: 59e91415949038e5785323d25d06a127
+SHA1: 9c1688270ae1b04a57b551924b3a395c44f9cc17
+SHA256: 2694c401576f28c7f5bf68bb40c0f1e763e6a17617c898c5dcb362735266e359
+SHA512: bcd8f588acc0348ccef1651d41f7e5f3094ed3cdc18833e97c925446d820d2cea6142ca5a2739545bb87d9393d03dbcddc653b34f6e9bd3616e4d3ade2204e6d
+Size: 1132
+
+Package: linux-libc-dev-radxa-zero-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for radxa-zero-stable
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-zero-stable/linux-libc-dev-radxa-zero-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: a8d6b455c4c7c78aa6cdeeca186580cf
+SHA1: b44a1d0879e461c76d4e6faa6a6ea4ee03c2b803
+SHA256: c54b7c999103b26e5e4ee8fa2c89df0b81d3b37a24ddcd83cc0c5e53a6b8dbbd
+SHA512: 9fbe3d4589ccaf1f97481b3d5e36daa1be8765fb044cf95d4002df810268c49e7f24ba1ba018f9193adffcd025bfe4cce554787ecb9e4cfae708d4ff1a4d58c3
+Size: 1144
+
+Package: linux-libc-dev-radxa-zero
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for radxa-zero
+Filename: pool/bullseye/main/l/linux-libc-dev-radxa-zero/linux-libc-dev-radxa-zero_6.1.12-1-bb9219a_all.deb
+MD5sum: a2b7f3dbbe7d2dbe8ed80923036292f6
+SHA1: 44fc08f7e9841f3b1e98b1bfb599826bf79c7248
+SHA256: ca7e3f1495a47a8e26d8bb39251d6fc0590b6a2c9d65b732f2388e9d4628fa29
+SHA512: 9266de1445ee591847253e8fb52c293ed8ce4d6451e4bcab746c3020a21dfc3bf24fd6f50f6801ff4c660e34171ecea87590518e99bcd2c0c1aed3a25365b517
+Size: 1128
+
+Package: linux-libc-dev-rk356x
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rk356x
+Filename: pool/bullseye/main/l/linux-libc-dev-rk356x/linux-libc-dev-rk356x_4.19.193-1-6ab941e_all.deb
+MD5sum: b6c7a7ebb2c6ec7509e38e06a0165540
+SHA1: 3d8cc16e233b7bad3660886b38fbe674e01e40aa
+SHA256: c7e23d53d86792bb99f0583984e1c5f338ef3bd49162d85b78decb5d06ea207d
+SHA512: 9df8c75a6a03f1b7ae04c3c3e582a558cf074eeee1fcb0f78d0482c1677b8721ea427f15083955ae951c6ee1121c88569c76127793f2226b495aea6ee399f396
+Size: 1120
+
+Package: linux-libc-dev-rk3308
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rk3308
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3308/linux-libc-dev-rk3308_4.4.143-1-f60a0f3_all.deb
+MD5sum: bb937328cba667ad987ae9f2dbfa5d5b
+SHA1: ca89f18b17a3c8dc2fdd7d96b30a194b5adb0908
+SHA256: 908c1147c6645ba96976693cca37e87b0d1ad77d25471e55edf8d1b8a1d97681
+SHA512: 67eba355f210c8e8932cb83557809434b8bb5d485e2c073b971f1cc161adf2f5bd02c8ee21b9b3e3d28b1bd7237562c0c3a4d24cccce8fbbb6241c282784c3c0
+Size: 1128
+
+Package: linux-libc-dev-rk3328
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rk3328
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3328/linux-libc-dev-rk3328_4.4.194-1-f60a0f3_all.deb
+MD5sum: 6ce335bb1c6ec04a7b843a2b136630f8
+SHA1: 4e36ed367378010e4339d062a2e9d72be1d823fc
+SHA256: 42072a1f08683775ec1896456c10d5980572dd4c44452325204a1cf3be5ca52d
+SHA512: 47e39c3cf1619ff2a9eb260364d473a87bc2d0aba96bba9760dcb4ff722cd10ff52b3988409697ed989b307f30feae1a776ee70f661a92a60ce7316274442b28
+Size: 1124
+
+Package: linux-libc-dev-rk3399pro
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.167-1-rk3399pro
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual userspace header package for rk3399pro
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3399pro/linux-libc-dev-rk3399pro_4.4.167-1-f60a0f3_all.deb
+MD5sum: f4c8dd5f21ae60b295813ff10ceccac3
+SHA1: 39b2075aa27784346e801dda7d79d9fbefa18e35
+SHA256: e23ca56fcf0003e9712e690262d1cafa707b6ff198989e7f4338fa03d21585c9
+SHA512: 859a09851f564767ba11ae33dedf5802d1e219c2930d46660d885601fcf8611ca484a6826a97de4cb4b95e31cfa95889a1086b9deb63da30ddd9764c213d8825
+Size: 1136
+
+Package: linux-libc-dev-rk3399t
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3399t
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399t
+Description: Radxa virtual userspace header package for rk3399t
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3399t/linux-libc-dev-rk3399t_4.4.194-1-f60a0f3_all.deb
+MD5sum: f2ec7649c3650f3fbec1af1e81ed3a27
+SHA1: 2f49aec6e18b2ee2de878245b96c1784d8b0b13d
+SHA256: 4030251ec30dc22984f28e425fa25ecfb669720839c1ceeaef78d1703c2d45d7
+SHA512: 1c8fe29a9b2be5412dffaffc6823ec1406da351e0c54ec0c33f63da0913bac77890798ecb820ef447710651ec5f688d2d22017ae3aedf7b81bccc36d8ba3f45c
+Size: 1128
+
+Package: linux-libc-dev-rk3399
+Version: 4.4.154-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.154-1-rk3399
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399
+Description: Radxa virtual userspace header package for rk3399
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3399/linux-libc-dev-rk3399_4.4.154-1-f60a0f3_all.deb
+MD5sum: 06e99c45d806a0244aadae278ea91b40
+SHA1: b28f1bcb2600d4868be8bcb6d7b8aa304073ad9c
+SHA256: dc3498c4b0786cbe751d1be6ab293e83452a8a18791b33ce0a773e5838474562
+SHA512: d8c27bec3383e6f881a1deb3494fce99c5548fdb57bf2277ad6c7e534f482cb462ce95029882d1767df454684ae40d20c2d64601c49d3cfc0cfc9534b40e5cc7
+Size: 1124
+
+Package: linux-libc-dev-rk3588
+Version: 5.10.66-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.66-1-rk3588
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3588
+Description: Radxa virtual userspace header package for rk3588
+Filename: pool/bullseye/main/l/linux-libc-dev-rk3588/linux-libc-dev-rk3588_5.10.66-1-f60a0f3_all.deb
+MD5sum: bf9c383666ea284d7fceee0767e67e12
+SHA1: ae6ae2795bd0c720583938e1c5655c5e26983cdb
+SHA256: 82270d63c599d2bfafc192978ebfd8f960ddb579b2a637fa2e54901c21bc97e3
+SHA512: a27bca943a5c011338e432460e8e47b2a59664e52f04efa3dbc8795e2973fd70125467d17f7a6d7cc008fd5f46dcf4dbe210fb386dd58ad6aefcda9b5ece72ba
+Size: 1124
+
+Package: linux-libc-dev-rockchip
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rockchip
+Filename: pool/bullseye/main/l/linux-libc-dev-rockchip/linux-libc-dev-rockchip_5.10.110-1-71086bd_all.deb
+MD5sum: 713dda751e15eae6668a332843a46f54
+SHA1: a1c8f209af8429765885b3d6544ed913628fa4f5
+SHA256: bacea7329965fcfeff20d300486af17e6f7f2983b2e3fa0c80d866c6c29a8617
+SHA512: 738339cd0e2e2c0e2fab384daede01db74149b14714a7bd4b0c68421a58fd9e6fb825da866b1211c89d2c104af606e30cb655e046927dbab18b424adec6b1090
+Size: 1128
+
+Package: linux-libc-dev-rock-3a-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-3a-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-3a-latest/linux-libc-dev-rock-3a-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: c110e641c2939dd82f32b6842c2790d6
+SHA1: 445d89fb6d3afc4f2d1a5d3efaa06aa436ce8ac3
+SHA256: 14ced769f06c925c935808437f23b9a5d369ebdb6fadd52af79174ba8304a4c4
+SHA512: e7bcc419ba7386e9145ba5ebbd13e4e6d3c2dbb467de9a96e20820d65aa2134adc2782040e48c3da186d2360c7d9675cd3dbd931981692baf82fdced935c0834
+Size: 1144
+
+Package: linux-libc-dev-rock-3a
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3a
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-3a/linux-libc-dev-rock-3a_4.19.193-1-6ab941e_all.deb
+MD5sum: fa92a1c4a21262350abc1327b19456d1
+SHA1: 846472034cb574787cc6b5e96f888e096f34300d
+SHA256: 6e14d0095393d98ce358fca6c57a676394d8b8ed75bcc0a2e47859198bc1e0f6
+SHA512: 9f18dbed87919cdd867e62a0bab5a3e2b445c0121628b070522a6bac0f8693ab84db782120ebf0b00d284f72aa1482619971802eaf00be06b2465f79da3aac46
+Size: 1132
+
+Package: linux-libc-dev-rock-3b
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3b
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-3b/linux-libc-dev-rock-3b_4.19.193-1-6ab941e_all.deb
+MD5sum: db81d3e00a4f0736798524de81d4c798
+SHA1: 6f0a6d93da797cde4d66afa51552200196d8f888
+SHA256: 8b0514a9200da676f149325af2afa9498a2beb9a12dca475db08044f8c0fba35
+SHA512: cb939c48cc1f3eb03adbf8128c2c6b74dd67f81e90cc34c298b2e9907cece0a76d0919b7334bbcfcdf22fe32f0751799a08b0a8d83a2eb48d6a8663f53dc796c
+Size: 1128
+
+Package: linux-libc-dev-rock-3c
+Version: 4.19.193-1-6ab941e
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.19.193-1-rk356x
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk356x
+Description: Radxa virtual userspace header package for rock-3c
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-3c/linux-libc-dev-rock-3c_4.19.193-1-6ab941e_all.deb
+MD5sum: ebbaff6207efb1aa25c0e1a8d20247f5
+SHA1: ab2329253d967bd49ac998f807154e7197399926
+SHA256: 81d5f577a1627ab75d7dec5407ed9bf71c97a2196372d74690986fea80187f6c
+SHA512: e5daba628bc3194c07e691dedf9f4a41e3f90d0b3e2c48f01104276a9216d8c5826bcb9df2415d94f98c57df9b8a6bd05ffd73d8d1f6e4c150b77cda4cf6e0f3
+Size: 1128
+
+Package: linux-libc-dev-rock-4c-plus-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-4c-plus-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-4c-plus-latest/linux-libc-dev-rock-4c-plus-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4cccd7bf7e7a20710657eaf97a2269e8
+SHA1: 1e2bc0d818f9554cd95d8b0e152bd0a3105271f5
+SHA256: 2909fde021566fd393679a4d285368fe05ecf0b88eb1252deaa5dae9eb7d9808
+SHA512: 48e3a10d93c8b3a1e57cfbb497c547d498dd6f37014d79a677008e279e194c678a17980f935efccd829240ae7948077da4703f49fc4b28b4a3aeed921d2f7464
+Size: 1152
+
+Package: linux-libc-dev-rock-4c-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4c-plus
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-4c-plus/linux-libc-dev-rock-4c-plus_5.10.110-1-71086bd_all.deb
+MD5sum: b7a7080f2d322550f9c382cd02d4a3c8
+SHA1: ac50f8bcd935dfe8394f18c8e73f4717ebeb729a
+SHA256: c7bd46b117e8770ef213ffa5fee42207f708aa127eb2c9a53907d5c0d98fe789
+SHA512: d2ec1e7db7773ba40962f54a65ff0f7b05859479b0a4ad828c95db19d39a91f2055abc29f931f06c8f06b720be27f9dbd77c6ad67f66cddc31201f9fb5ddffe2
+Size: 1144
+
+Package: linux-libc-dev-rock-4se
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4se
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-4se/linux-libc-dev-rock-4se_5.10.110-1-71086bd_all.deb
+MD5sum: 755896b1065a12c9b52f06dd6e62a889
+SHA1: fcb1593e5c87b983874fa71e754c9de6ba966d53
+SHA256: 7ff57af4cd2383f94f78be289731c03ecb7a1f45e39c52b101c8e257a022e012
+SHA512: 9733469fbba28c638697a5ebf37fe4f00a24683939ebf3bc987d923f517a00be6efbcae5e3dbfe8e6b70971c581a35d3e6ce12f6fb7df25d297d03a86f0ae87a
+Size: 1132
+
+Package: linux-libc-dev-rock-4-core-io
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-4-core-io
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-4-core-io/linux-libc-dev-rock-4-core-io_5.10.110-1-71086bd_all.deb
+MD5sum: 586ef5d3aefff0200885a4b921888e12
+SHA1: 57214cf479636ff6d375eeaa61065c9380ff483d
+SHA256: 423f0a894476f1d9b0e8e0a292f345f5e9ba5f9d4814b8cf07fb44fb2c1d2a0d
+SHA512: b1268068c9591f2be6513ca828d0d5fae54aeafb0bf78f1cf92f162307f83f7869f1abe3d18646f66b737109cd7cfb13bce8da7d525b6075ed1e16b92185f2ad
+Size: 1148
+
+Package: linux-libc-dev-rock-5a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-5a
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-5a/linux-libc-dev-rock-5a_5.10.110-1-71086bd_all.deb
+MD5sum: 6d48bab386cfe97f0c03978c629ea874
+SHA1: 685c133815703462b2446b50309003b4f6bf7856
+SHA256: fc502c6a07e4f257fac94e78e1f84e4865da5e5f158fc970b740ef7c23f05d44
+SHA512: 00fb5d86377a6165e47eb5878f0f7c2f271e82de1611a6f42062832d6a38a7c3a7580713fbd4107442bc9fbd9e9d3bff39ec43e20e7ea08fe7f29ce4992d93d9
+Size: 1124
+
+Package: linux-libc-dev-rock-5b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-5b
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-5b/linux-libc-dev-rock-5b_5.10.110-1-71086bd_all.deb
+MD5sum: 89e75b49bc266eb47e56911a7c23ec68
+SHA1: 374f7cc69c2bf0340f622ae17f5efb3256c6526f
+SHA256: 5feb9244c55391535435b6e5adf73d3d616a2b3aacac0eb38ed3442634e4d590
+SHA512: 62146216468d3e9a3a60fd3bb2760fd208ce19c021aaafd644f0bffdb2f416d3e24c6a67a1a852ded8f261aa350193482a35354bcdc492472c954914514f284e
+Size: 1132
+
+Package: linux-libc-dev-rock-pi-4a-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4a-plus
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4a-plus/linux-libc-dev-rock-pi-4a-plus_5.10.110-1-71086bd_all.deb
+MD5sum: 17aedb405e01fe8429e23732affcfe97
+SHA1: 3c337f8ce16fad89e74610e63c96f089097be4a0
+SHA256: 2873226600cdecd284b7090b3895f6f4adb3f193e33d1a5b50c381e92b8a25af
+SHA512: c3862a07982940de860e4a49d62c6ae0262ec630019eb808c868a71edceeff9a08daa29d06deb693ee24e6cb0d1f99d7723bded3c6aed1eb032b50ce2a75d02b
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-4a
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4a
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4a/linux-libc-dev-rock-pi-4a_5.10.110-1-71086bd_all.deb
+MD5sum: 15a4d74c024ae833e5a83bd6c37faa34
+SHA1: da54f9febbcd4e98bcfd710da8898e368624ca85
+SHA256: 9b2dbeeee2b1f844735ac99dcefc9bb6b6c14166038cfa3488f444cdf70face4
+SHA512: 622051256f19bb92ed9e86198b14c9d3cb521f5cee3a10e0aa88d94f548750adf4614a978c0afc2365992d4e18ff14812a8e309022ff2c9a685e834ddf40a458
+Size: 1140
+
+Package: linux-libc-dev-rock-pi-4b-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-4b-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4b-latest/linux-libc-dev-rock-pi-4b-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 2116e1ef1ddb1da589d7a0f62a4baf00
+SHA1: b30c3ed2d5b63ba63f9ba45c44d464740fe0571b
+SHA256: 73f0a5dc3474eaad1f2e59445b7f99957c8a9e1ba4b7a6e8589c8a988f9295e5
+SHA512: 3531faa41dd6fe49a0232718ab62a6f7ee9890f03e0b31a642cc00baa9892704fa21df327218acb6c7d376ad4caf8c5eb7cf883a1a5e9200ef999bc227dbff0f
+Size: 1144
+
+Package: linux-libc-dev-rock-pi-4b-plus
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4b-plus
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4b-plus/linux-libc-dev-rock-pi-4b-plus_5.10.110-1-71086bd_all.deb
+MD5sum: 79332b1b7b7b731f0bdb1cc0756b2cc0
+SHA1: 79222505a8c4f451379636aa8f57bf7d24351a0b
+SHA256: f32ec4ca32d28029c32968d322789d2422ae0f693af5bb807629678e25fb6256
+SHA512: 6af51f78699122c13d8ca815b943b1384eee18d420af9c517b440a8b0337edd07ee7c5dd7f8f0750f9ddc036286b35a9ab5bb7ca86a9d33c70c15ef6accd1e5d
+Size: 1144
+
+Package: linux-libc-dev-rock-pi-4b
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4b
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4b/linux-libc-dev-rock-pi-4b_5.10.110-1-71086bd_all.deb
+MD5sum: 58b84e5881236b678ed79a1f83064982
+SHA1: c079efa15c20c7abe3cb7157272c503db93bacb5
+SHA256: 390fea0fb229cdc3da0ada926a6e19e73f58f8c69f523198d0a706a15af5acfd
+SHA512: c0ba8c525c48eaa06fb90f4b3364b0b2ca756ec9c41bf303990d5f859fa2174334535efca423c15cdf9859730eeee218b67492070d4e5cdaf86d9cec6a11dcb2
+Size: 1136
+
+Package: linux-libc-dev-rock-pi-4c-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-4c-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4c-latest/linux-libc-dev-rock-pi-4c-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 51215c1affdf5434061a3d0fc3d70854
+SHA1: b0ea86e170e83440ef462d456dad05f663bba0df
+SHA256: df3ba7f447203d59c438acf1e9d4f3415b92c45d03622276718857b7eb6cb8a8
+SHA512: 64c92fa2595d1620ec4ce425c2ca8d863bf38cb726c02084851c969254149baf694a0bb75e60d574c3c0e0894c64abf0e60744395bd4f01227efbded14d78492
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-4c
+Version: 5.10.110-1-71086bd
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.110-1-rockchip
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rockchip
+Description: Radxa virtual userspace header package for rock-pi-4c
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-4c/linux-libc-dev-rock-pi-4c_5.10.110-1-71086bd_all.deb
+MD5sum: 32d27c5d8bbe1ecbc7ae5a1d5225c77e
+SHA1: 7169b5eef9c4a8c422c34620f45bbff395da3acb
+SHA256: 07f6cd843af08815570394f63e318b41720fd3793942fa51b770f26b5d440c3b
+SHA512: c94deb5932aca33f2d1caa598576eb524a44d2bde7f2594770145f926aa870d3b97f2c38d16a71a4752147eb1a8c7e0a4acd1c16f78ec031a04a52d6e0109400
+Size: 1132
+
+Package: linux-libc-dev-rock-pi-e3
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rock-pi-e3
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-e3/linux-libc-dev-rock-pi-e3_4.4.194-1-f60a0f3_all.deb
+MD5sum: 2810108fdf8e215dc3099b607f5a8be7
+SHA1: dc2639ca5d1c7f731efd5fcab736767f76fc112b
+SHA256: 0dc762e43ea0b8db56d91eadcf76280054ad6f50fe2e8ff5df3a43eeb88dd76f
+SHA512: 783ceca0bafb5e9b67eb3d1f10743a904aae37416aa39073e034e130b63b98eef40a7f4d514834d2df216056d8062a35a210075d73cdcaa3126581db1820eaae
+Size: 1140
+
+Package: linux-libc-dev-rock-pi-e-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-e-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-e-latest/linux-libc-dev-rock-pi-e-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 478db9f926254b7fa8a0ed27b0c9b496
+SHA1: 2f8b7ab841a5ad77d3225ebffa872459773ad9d6
+SHA256: 4254ca7725594bdc3925918bce77d3212b021426ea65f15f3df247c1c0d523db
+SHA512: 2d3c204d79ba9ccb38819cb3efb905d0866aa388c054664f015b6c7defc1f71c4f2740588077d760b9f9a169f6c738e58638fc4747a51f9152836da10c5bc23d
+Size: 1144
+
+Package: linux-libc-dev-rock-pi-e
+Version: 4.4.194-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.194-1-rk3328
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3328
+Description: Radxa virtual userspace header package for rock-pi-e
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-e/linux-libc-dev-rock-pi-e_4.4.194-1-f60a0f3_all.deb
+MD5sum: 43dd0c3f4006feefcd14cff028feadb8
+SHA1: ffe9b2ecb29eaf37cd65a636fceb1c2c93f32dce
+SHA256: a6611bf9f31d865d55b007b75966812e83cd4b5d784ace9f28ac7e891a214ab9
+SHA512: bf2d0513efbb883e355965d38ab1c2277a573d6fe7ea9a9da1de860b9822bd34ba29f5b24ed6ca8e491b0af8365c388e0175f53e35c2b1c47aff4944b515a891
+Size: 1140
+
+Package: linux-libc-dev-rock-pi-n10-latest
+Version: 6.1.12-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-6.1.12-1-latest
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-latest
+Description: Radxa virtual userspace header package for rock-pi-n10-latest
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-n10-latest/linux-libc-dev-rock-pi-n10-latest_6.1.12-1-bb9219a_all.deb
+MD5sum: 4b282f0d3ca735eace31bd7023edbc1d
+SHA1: bd8e7b6bd4b021582b5ae79ef787fb7436865112
+SHA256: 70415580b1c4d94f3b68659854408a962763e8783aacb079b266deaf96c4c743
+SHA512: 9c1ccd9a3cee98f01168fd5b3aae8078a0e917cafd218768f47c9cbb25ebc96655a8c4ae4c9cfda0761de0db6d75fd79d54c07b1d61d1cf10e5615ba66c70730
+Size: 1160
+
+Package: linux-libc-dev-rock-pi-n10
+Version: 4.4.167-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.167-1-rk3399pro
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3399pro
+Description: Radxa virtual userspace header package for rock-pi-n10
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-n10/linux-libc-dev-rock-pi-n10_4.4.167-1-f60a0f3_all.deb
+MD5sum: 6cb86142a983918aae01a81e18559f70
+SHA1: 990202ce01e62a0a953a15630f823033fb480800
+SHA256: 583e8d241ecd3b594f1e8c519adcdb2738fd0fe7a27020b42f662627662c6eb1
+SHA512: c37c8e3f8151d71305b6e1f87054a847fce17cfdab9cec001a717f01d564800bdc0fc05ccbaa69de5b743c5d7214db66e48a168fd2515309eb636058efd6b0f2
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-s-v20
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rock-pi-s-v20
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-s-v20/linux-libc-dev-rock-pi-s-v20_4.4.143-1-f60a0f3_all.deb
+MD5sum: c634eb3fb5abf082ca2bd76ac04d495a
+SHA1: 79bce408540c5889f9c55862f5f6fcd95426e6f9
+SHA256: 2a002af0088e0b54574f0034ee271398c61b6cfd0b6e4a7fdddee94d3dc3a786
+SHA512: 214c9bc84b952e1d76a71be756f776a4b26c51a3b06c886b63598ae1036a9326c46ef6ded02eb977f50f496c9f2446a58063f80ce4d84f68ed8affb7d961e9e2
+Size: 1148
+
+Package: linux-libc-dev-rock-pi-s
+Version: 4.4.143-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-4.4.143-1-rk3308
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-rk3308
+Description: Radxa virtual userspace header package for rock-pi-s
+Filename: pool/bullseye/main/l/linux-libc-dev-rock-pi-s/linux-libc-dev-rock-pi-s_4.4.143-1-f60a0f3_all.deb
+MD5sum: bfa4becc46652092579b25493f1110c1
+SHA1: 8ca8b7b1922ff852dcbc78034e07e6e622eee56c
+SHA256: 8e3741a7349837dd86a353bd620afac4396dda564d4a006b2669fdb49cb4588d
+SHA512: 313258d88ef5df935eedb88be70638de6c7d1073f6407248fc4c8c9c9a874fb1ca27067294e427050c67d75f12b59145443af0894748a1d6de53a97a814adeee
+Size: 1140
+
+Package: linux-libc-dev-stable
+Version: 5.10.167-1-bb9219a
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: linux-libc-dev-5.10.167-1-stable
+Provides: linux-libc-dev
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/linux-image-stable
+Description: Radxa virtual userspace header package for stable
+Filename: pool/bullseye/main/l/linux-libc-dev-stable/linux-libc-dev-stable_5.10.167-1-bb9219a_all.deb
+MD5sum: 8859ad4b832ecde0804066413d37627e
+SHA1: 9f07220f31a46df67359647625b3051211af3748
+SHA256: 334500ce314f4d7358c2dd106eab816deeb63f255749beede823b8e4eeff3716
+SHA512: 5ec1a2b8cabadc8d9c00556751b74159aff711096b88b53126b2298f7dc4727a265a34a6022acbe881d43ad777988d476d43de5f26d5b4b7892e2b4cea45b572
+Size: 1124
+
+Package: linux-libc-dev
+Source: linux-4.4.143-1-rk3308
+Version: 4.4.143-1-222447a9
+Architecture: arm64
+Maintainer: Anonymous <root@dafbf47b5eed>
+Installed-Size: 4129
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.4.143-1-rk3308/linux-libc-dev_4.4.143-1-222447a9_arm64.deb
+MD5sum: 5b6fe6e7aa708f841f6593ae2458204c
+SHA1: f8d35b96b3e3593b0e3a6f9c46323efcfa5f6ecb
+SHA256: 9f52f7cd9b20e56050012c39a35517b23c667c69edfb3bda3f57f14087455ac9
+SHA512: b17685af543b1578eb303248ab7e65e8f98c8e8629b785cce4f6e623748714fded94476fb21381b9fbd59c1a093811d8e97caf1f6982d7af95330ac7e75103b8
+Size: 812312
+
+Package: linux-libc-dev
+Source: linux-4.4.154-1-rk3399
+Version: 4.4.154-1-86a614bc1
+Architecture: all
+Maintainer: Anonymous <root@8ae351b91123>
+Installed-Size: 4129
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.4.154-1-rk3399/linux-libc-dev_4.4.154-1-86a614bc1_all.deb
+MD5sum: 82e71003c725d73a9c605ad5662f20fe
+SHA1: 741c31075cdd30dbae6e95b87856cb345f23b66c
+SHA256: 384bd44743a9d97b1094ea6247d416c3b9b433515f4a606f98476074c994010d
+SHA512: 9d3d1e5d4647346e88fe7160ec7f94ada870ecb5c7151b5e7950d34d146dcd981864b89b721146795e99de30bed52ce06e00e635971b52735abc4cb59daa0012
+Size: 812312
+
+Package: linux-libc-dev
+Source: linux-4.4.167-1-rk3399pro
+Version: 4.4.167-1-206ee2c3
+Architecture: arm64
+Maintainer: Anonymous <root@dea14a1e1052>
+Installed-Size: 4132
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.4.167-1-rk3399pro/linux-libc-dev_4.4.167-1-206ee2c3_arm64.deb
+MD5sum: 13c3abe6e0f246dc473f88bd9dbbe319
+SHA1: 178cab92309361d608c9f68358ee74c18149020b
+SHA256: f578546e67dc8c2c9cf5151245cdd5fa9f5f42f2b8b5ea51a3eccecb1e57d7d8
+SHA512: cd0a603b90d0609e0df3337166efd70648f9c9478c42ed8fc3d91993a1ff488d083de03a2a660f5cf24dac110beb6e3c1c7dad58d26b007a029f5fd6d670597a
+Size: 812864
+
+Package: linux-libc-dev
+Source: linux-4.4.194-1-rk3399t
+Version: 4.4.194-1-4e1e1f35
+Architecture: arm64
+Maintainer: Anonymous <root@5f54913aef1c>
+Installed-Size: 4143
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3399t/linux-libc-dev_4.4.194-1-4e1e1f35_arm64.deb
+MD5sum: a0c790fc29c57746e0b5e00d0c863b06
+SHA1: 323c888b2365fc0fb9917911a707ebd324960dd6
+SHA256: 2ea55f00f76d3603074b8c311121647af5fb5aad685bd404f468ba6dd4049fab
+SHA512: e19a92d3b5108feee28513c27f02ec402c6f4939b8534fac4c19da6b1d6af7a8fe33824b96ac639845d6e868605d754fcd138d06cfac827255a44c6b68dcd0f8
+Size: 814616
+
+Package: linux-libc-dev
+Source: linux-4.4.194-1-rk3328
+Version: 4.4.194-1-12a18255
+Architecture: arm64
+Maintainer: Anonymous <root@5b9deb8cd894>
+Installed-Size: 4140
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-4.4.194-1-rk3328/linux-libc-dev_4.4.194-1-12a18255_arm64.deb
+MD5sum: 6e733342a3d0e7a0d584a1ca74bef62a
+SHA1: e6f9c2d3c664e374265bdb957a91c14290f918d6
+SHA256: 56f303a336f533c56f550d8220f2c016d4fca255222df8273f67c809d11b23fe
+SHA512: 0e9088aafecacd4067a4974935b23c3cf0ff86158f85c135a5708a23d3aeadeb3a8303e6480cef70f06aa80ee65874e97f45422d5b090fc55c1330d1c04901fc
+Size: 813912
+
+Package: linux-libc-dev
+Source: linux-5.10.66-1-rk3588
+Version: 5.10.66-1-c42853628
+Architecture: arm64
+Maintainer: runner <runner@3fc3bdf31cf1>
+Installed-Size: 6260
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Filename: pool/bullseye/main/l/linux-5.10.66-1-rk3588/linux-libc-dev_5.10.66-1-c42853628_arm64.deb
+MD5sum: 7fdb87a25cb718e7dcf5fd74cc83c3b1
+SHA1: 20b17efa78e6ebda5801bbe6a477b25107bf0fb2
+SHA256: 3fa000a8eac6b2727fea2058896526cd5b757734e56574c6ef404541d6d7a025
+SHA512: 07b9e37e693d8f73cf065cfa1e79d672f39273c4c76cb7c5d755fecd4f56d1bfc89a2aea2390185a7ea00ad12ed6a603bfb98c42858b560dfb2f26397d85d597
+Size: 1190112
+
+Package: r8125-dkms
+Source: r8125
+Version: 9.010.01-1
+Architecture: all
+Maintainer: Hideki Yamane <henrich@debian.org>
+Installed-Size: 771
+Depends: dkms (>= 2.1.0.0)
+Section: non-free/kernel
+Priority: optional
+Homepage: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Description: dkms source for the r8125 network driver
+ r8125 is the Linux 2.5G Ethernet device driver released by RealTek for their
+ network controller.
+ .
+ This package provides the dkms source code for the r8125 kernel modules.
+ Kernel source or headers are required to compile these modules.
+Filename: pool/bullseye/main/r/r8125/r8125-dkms_9.010.01-1_all.deb
+MD5sum: df0134b5bd698d9a28eb085ad86207c7
+SHA1: 10f827f591cf7d035af72ccf18e9b7610a46c047
+SHA256: 48956c9880e4214b312a20a3b558a9c7b985f80f32a04547211e3527d6e7389d
+SHA512: 8fb47f55629574f0597b1fea8a5d33afb5880e04af7699716f456a1cd2dbbf595cfec5c686ffd821109bcfeefc30639d9809d93da74af24a52552c5b2fa98d18
+Size: 89988
+
+Package: radxa-archive-keyring
+Version: 0.1.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 16
+Section: misc
+Priority: optional
+Description: Radxa APT archive keyring
+ This package contains the keyrings used to sign
+ Radxa APT repositories.
+Filename: pool/bullseye/main/r/radxa-archive-keyring/radxa-archive-keyring_0.1.1_all.deb
+MD5sum: 17a375b3b72b322f511973704a926410
+SHA1: cd73f153ef3ed5f3961fac9aacffb550f32cfbb3
+SHA256: c82bc03e6be78606414e12f5ea9b1f70908265b0f7ef7ebea82e585d17e9d898
+SHA512: e9362488bd60d66abc9db44d6c617550dec0c49e4b763fc3ca2612fb17d2b1badeae1cd8412670658f52443624997fe849fd9735c7482564b400790b22cc1a6a
+Size: 4896
+
+Package: radxa-bootutils
+Version: 0.2.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 24
+Section: misc
+Priority: optional
+Description: Radxa boot utilties
+ A collection of scripts to support system booting.
+Filename: pool/bullseye/main/r/radxa-bootutils/radxa-bootutils_0.2.1_all.deb
+MD5sum: 58f14f9fcdd223904b9ce8838133cd93
+SHA1: ddbdbd4c67ecf4b75368be099c4f87905362991a
+SHA256: 6846a359eb79127484dd1cab2bfbf258f8c451a671beb53aa21d9839b9326571
+SHA512: a1e889d1962821f64004a8ffa7b0b987315990c579bce350202431675b51c4c6f2c1480d5ca739e5e2b8d4d44e2d1809ab685f7ee8189ddbf0ad3f5b17b4bfc4
+Size: 3324
+
+Package: radxa-firmware
+Version: 0.2.6
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 1353
+Section: misc
+Priority: optional
+Description: Radxa supplemental firmware
+ This package contains firmwares that are not
+ shipped by Debian.
+Filename: pool/bullseye/main/r/radxa-firmware/radxa-firmware_0.2.6_all.deb
+MD5sum: 6056d25d4dd81a6cf7e4c1d11fd2a2c6
+SHA1: 39500fba4a6661e825aa89297b34ff2ca3610fa0
+SHA256: 8417d01f0ba5e1dee38e09034343d0fb438e7ac5c396b0eb75c19b505c876ef9
+SHA512: 287156bce8a721bc571830d89c752aedf52dc76e9a2f21b98ee3a36a78071582309d192f959fbf07195d33f3bf7c1bccc41095f1c4911ac40fc1151b8e9d576a
+Size: 605688
+
+Package: radxa-otgutils
+Version: 0.2.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 35
+Recommends: android-tools-adbd
+Section: admin
+Priority: standard
+Description: Radxa USB OTG utility
+ Radxa USB OTG utility (radxa-otgutils) provides additional
+ features over USB OTG port to facilitate easy communication
+ with another computer.
+Filename: pool/bullseye/main/r/radxa-otgutils/radxa-otgutils_0.2.1_all.deb
+MD5sum: 37879364cc429d4886733d890ad9f076
+SHA1: c05191243f7958157578a66de5d47f77aa4a99a5
+SHA256: 9de1fe24a412d66535764ee1f3f805fd9741f1d0c7c14524c6a235ab3047f7f7
+SHA512: 8ec97a92efe8d77c1e050ed19d4ccedb2dcb3e97669d35ac3c497b27c4d02b695b4e89ba577791542ca6d1182206781da3b38ddc6dc52c757ff0722fb64ccc69
+Size: 5128
+
+Package: radxa-sddm-theme
+Version: 0.1.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 17
+Section: misc
+Priority: optional
+Description: Radxa SDDM theme overrides
+ This package provides sddm-theme overrides to better work
+ on Rockchip platform.
+Filename: pool/bullseye/main/r/radxa-sddm-theme/radxa-sddm-theme_0.1.1_all.deb
+MD5sum: c278811c38c61826012c69249da428e9
+SHA1: 4fdd5d1f1333c54c894a51f398da2f42e1584ac4
+SHA256: 46c5069c91b77d253b8f2464d14ba597b97ee168704c612ffc0b0bb30364fc0b
+SHA512: 84fbd2a1b2dbea3021f346f8c4974b3c668e0cda0cd047a4b3a06818713ff4cba7dea954055edd2a1caec926b3febe138a281749d2d62873ee30ec7ea1a17de1
+Size: 2464
+
+Package: rockchip-chromium-x11-utils
+Version: 0.1.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 26
+Enhances: chromium-x11
+Section: admin
+Priority: standard
+Description: Support package for Rockchip Chromium
+ This package provide the necessary services to ensure
+ proper functionality of Rockchip Chromium.
+Filename: pool/bullseye/main/r/rockchip-chromium-x11-utils/rockchip-chromium-x11-utils_0.1.1_all.deb
+MD5sum: accb5ecc2c15b7789d1931b5118d08f8
+SHA1: 5f07440814cddb415f05be80b112024b2f68d7fb
+SHA256: 4dca9de1aec41ee9093e4060b6999fcd0677e1e129685c8fa8601d2591ddac48
+SHA512: f256e326767fc059e5903ba243ea061017556f41d8dc90ebce88f6104ba7c40799265c74e6f78623c8944c7247bf87f7a2f234e0ee61059395d6291dfe487370
+Size: 3748
+
+Package: rsetup
+Version: 0.3.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 117
+Depends: device-tree-compiler, gdisk, parted, whiptail, yq
+Section: admin
+Priority: standard
+Description: Radxa system setup utility
+ Radxa system setup utility (rsetup) provides an user friendly menu to
+ perform many essential system configuration tasks. It also provides
+ an on-boot configuration service to allow customization.
+Filename: pool/bullseye/main/r/rsetup/rsetup_0.3.11_all.deb
+MD5sum: e9e2c0a6a5637026ee6a3d9d2bccb3f6
+SHA1: 6351562eab252dfcd4c8e968212e741044ab18b0
+SHA256: a8aa38f2dacf62beeed5ba1c111887e3ebf464b105f7a22f4ffa49f6ba38bbe4
+SHA512: 16617f1dfa8212cc3e8918bee6ce0d86f6cebdd7adbdd6c9d373d2890b3d2e89047bedfd2d189c409b7d7d364976c2aad38774b5843d72e37c34965aa01cb3f0
+Size: 17904
+
+Package: u-boot-latest
+Version: 2022.10-1-4debc57a
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 99652
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa U-Boot image for latest
+Filename: pool/bullseye/main/u/u-boot-latest/u-boot-latest_2022.10-1-4debc57a_arm64.deb
+MD5sum: c98536297d11e77a3e52e9b955e35270
+SHA1: b8f7793fbfc643637ed6315bf4ead5def3c965e3
+SHA256: 5a3f6022a53b557e3a1d7776641ee9f8ba930d10189f63e2273be31b03b34833
+SHA512: 892c9b2305adf00b82561dda31b601d04c93168025cd41d15941e2802d92451b81999a13aba97d618bd3a6a38f75d6d153b74e8fe3b80902a5648814927f46c6
+Size: 7615528
+
+Package: u-boot-menu
+Version: 4.1.0
+Architecture: all
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Installed-Size: 32
+Depends: linux-base
+Suggests: flash-kernel
+Section: admin
+Priority: optional
+Homepage: https://github.com/suihkulokki/u-boot-menu
+Description: u-boot menu update
+ Automatically create extlinux-style boot menu for u-boot. Boot menu
+ entries are automatically created for every kernel package when they are
+ installed.
+ .
+ When /boot is on a separate partition, the package flash-kernel may help
+ ensure that device-tree (dtb) files are made available to u-boot.
+Filename: pool/bullseye/main/u/u-boot-menu/u-boot-menu_4.1.0_all.deb
+MD5sum: 76783ed9627ffdb865aa1f8768a5025d
+SHA1: 0363ca1faad7275210b71bb1b89f2d391e17a17d
+SHA256: 9ac7f43934124db2afbeea8e7e75c19967a5997dedf2851f24b61292eb659376
+SHA512: 1f45629aa3ace8546f7dbc04288d4708266feb8afa201e9fa21e0e925d1b393ba04fea259aa2d94392b84c674db10b042e6c56ed5e4013d78d5f3988c3bd5088
+Size: 8452
+
+Package: u-boot-radxa-cm3-io
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-io
+Filename: pool/bullseye/main/u/u-boot-radxa-cm3-io/u-boot-radxa-cm3-io_2017.09-1-7927353_all.deb
+MD5sum: dbbc08d885d22de7042e999ec878081f
+SHA1: c0a67dedb8792cc6b98270e4d3b541859bfdc81a
+SHA256: a4985111dadea7ff4d9627be7bcfb9681cf366b5098d66c81b98bbc1b95f6fdc
+SHA512: 3774f7d6b26ebaa6af289defc0491abc81f689c910ce78d0efe63482a36e1432d76fa6ce021a17dfb58516898da578ce1396c042a7e8263254bf5dc61467a014
+Size: 1112
+
+Package: u-boot-radxa-cm3-rpi-cm4-io
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-rpi-cm4-io
+Filename: pool/bullseye/main/u/u-boot-radxa-cm3-rpi-cm4-io/u-boot-radxa-cm3-rpi-cm4-io_2017.09-1-7927353_all.deb
+MD5sum: 7fe70927852e6f8357c84699156f0630
+SHA1: 72c9e2e5f364b62da780a7b8a5dce31257e2eea8
+SHA256: 117c34c2c05602fba288155d316dfc3348bbc6b38f5fdffd6d09cd785cb29148
+SHA512: b8b1fe8c1d9bb10f7b5af64a3de1c27168526f5d2bb45ea9cfb9162d1eee5ae2d1d2db2eb2b4f291ecfbdd14e5ac6913ed92c1d80bfb18107dbe5a04eba700c0
+Size: 1128
+
+Package: u-boot-radxa-cm3-sodimm-io
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-cm3-sodimm-io
+Filename: pool/bullseye/main/u/u-boot-radxa-cm3-sodimm-io/u-boot-radxa-cm3-sodimm-io_2017.09-1-7927353_all.deb
+MD5sum: 1de3eba508a2638246387bd6c9d033b1
+SHA1: 5b481134bd24635419e147bbc2acbc320484fdb8
+SHA256: ff4abddf4531ffb4573141cbe1913eb8bd26b4f61167466d15e86091965b2544
+SHA512: b471640971cc4f5a7aa0c5ea43a0a2495b9297ce8f0eeafb42edfce8f7768591a84a34b11e2ad03c167f75bfe3e44a1484cc07b77a24ce64a116c9e76b1443ec
+Size: 1124
+
+Package: u-boot-radxa-e23
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-e23
+Filename: pool/bullseye/main/u/u-boot-radxa-e23/u-boot-radxa-e23_2017.09-1-7927353_all.deb
+MD5sum: 0127b1e929c848b3bb878e4c25990725
+SHA1: e5e514c276b112a9986f0177d58120ab5206ff77
+SHA256: 77d61ca06322d299ea6d10dcaea4ef104949baded5fa327fd449135b586585aa
+SHA512: 858a477fd1c867f14340367e5939921eac3275c23ff06622b52b0cc274821fb8d8c3c1798725abe29b90c79c2e4a8f6eed35dff66b14bdad50ef09f9de1c0243
+Size: 1100
+
+Package: u-boot-radxa-e25
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for radxa-e25
+Filename: pool/bullseye/main/u/u-boot-radxa-e25/u-boot-radxa-e25_2017.09-1-7927353_all.deb
+MD5sum: a8bb19afe8543482f158cc39bfbbeaf8
+SHA1: 1b1a1ee56ba61779291af0baf3698e1950aafd17
+SHA256: 53eb8f50916edbd77ef8ea5c0942a296c05971eb40ab4a8a44a33e0944f08f0a
+SHA512: ea35db62b98329985f632bd69ce0b94d63a2534879b7a72730d86d782d7a9a01313c6663bb096bf46f6b59222b99391ab8a615ff9b31ea9c697e478a0d8f1d9e
+Size: 1104
+
+Package: u-boot-radxa-nx5-io
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for radxa-nx5-io
+Filename: pool/bullseye/main/u/u-boot-radxa-nx5-io/u-boot-radxa-nx5-io_2017.09-1-7927353_all.deb
+MD5sum: 384e3f6f5764718d91043ebb5f1b57ef
+SHA1: f63ff9ab60b8a141371070787897ed0c3d797afe
+SHA256: 44e640d53398f352d7485896f4e9899666b3e21b1b52aea820741f50ea287dd2
+SHA512: a9eb7e55edb62d1ab1f5c369fe50b068d245e1d792e1633dc4fdc0f2e8a3110b927875e2f4c147dedc8200b2201a620c574504d281772841a6504e9b026b4000
+Size: 1092
+
+Package: u-boot-radxa-zero2
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for radxa-zero2
+Filename: pool/bullseye/main/u/u-boot-radxa-zero2/u-boot-radxa-zero2_2022.10-1-7927353_all.deb
+MD5sum: 35bba142275959568e7e5b521a123f41
+SHA1: ca31ad962e0e4820b0701bfd17a6c3d109df0d8a
+SHA256: c8c4990998309522c4408825b95aa7b65dd8f7910cabfc1c48be3916793d0fe7
+SHA512: fc6e0a619ba6e3c57452ba21104076e4483670a1747cd0ebb9623fac44eb27cb3c94912bfa78809e569af4d2f137ab49126047781c8840690d1fe330d00625bc
+Size: 1104
+
+Package: u-boot-radxa-zero
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for radxa-zero
+Filename: pool/bullseye/main/u/u-boot-radxa-zero/u-boot-radxa-zero_2022.10-1-7927353_all.deb
+MD5sum: 72e1245457f3b84489f73081c7ee7ada
+SHA1: c41678920bf59551aeac3cf4af61d4090ef6a045
+SHA256: b700aa7a8d521eb90c303cf7807a3f796bae634b3596be25c3a4dbd843e9255b
+SHA512: 5355b5cb988c216ec00a54747a0797934300667539d934e5916140a843107f0ee83f99c51ef422178cf9615b28581e6448cdcc2e81ef5d8a84e824e22a9e10af
+Size: 1108
+
+Package: u-boot-rk356x
+Version: 2017.09-1-15c53b0
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 22720
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa U-Boot image for rk356x
+Filename: pool/bullseye/main/u/u-boot-rk356x/u-boot-rk356x_2017.09-1-15c53b0_arm64.deb
+MD5sum: e89b98eccc1edd8061861f6a347fefd6
+SHA1: e8e53b47e3be5cc087ccdccf70e4175c9827810d
+SHA256: f6fd1d3b7223b71b48041541db325b792c79818559ac9fa4ad8239a3741bce91
+SHA512: 71f7df155140e73e2d2ddf843bd1077841eb6ef1c66fb17d8e1f82a6a13eddc99c6683cb26d9ee08a7f0f2fb059549fb218f17584eaec739645409950cd9fb22
+Size: 1114840
+
+Package: u-boot-rk3308
+Version: 2017.09-1-e005537
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 17533
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3308
+Description: Radxa U-Boot image for rk3308
+Filename: pool/bullseye/main/u/u-boot-rk3308/u-boot-rk3308_2017.09-1-e005537_arm64.deb
+MD5sum: 29d9fb57d095e43590bd70e8529cb28f
+SHA1: 4b079765db3fd68333a2f21228667e28e7ab5bfc
+SHA256: 40b5efbf7d0aa217fa7625685fdd54eb36dbf3faff1b7221eaf65ba7bf5f84c7
+SHA512: cb2398f782ec0f5191a3fd9266c5fb963d05a74529de57c2808a34e161c897078c38c4bb6d8601ed0abbe617d009673191f94681b1112eafcb97fd52f171f95a
+Size: 996216
+
+Package: u-boot-rk3328
+Version: 2019.10-1-3c4cbe2d
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 17225
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3328
+Description: Radxa U-Boot image for rk3328
+Filename: pool/bullseye/main/u/u-boot-rk3328/u-boot-rk3328_2019.10-1-3c4cbe2d_arm64.deb
+MD5sum: 6ba6c70693c5f261b6fe50b3d293e6ec
+SHA1: 9e15acffe6cab14aed4aeffe9a174c6bc764f554
+SHA256: 05d6d77d9418097082f0827c16a77b562051d003fe5cd3fdbf2e79e2e8eb1ae4
+SHA512: 2d494bcc424085d0d083c734f88bf6b1ce55ea53e4ff0aa653c257cbec65c9a2a8bf1fb7219d0b94d310b23f28be31b4911a0ad31a83ca052c49e748a08e45f4
+Size: 866108
+
+Package: u-boot-rk3399
+Version: 2017.09-1-8e67d58
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 38013
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa U-Boot image for rk3399
+Filename: pool/bullseye/main/u/u-boot-rk3399/u-boot-rk3399_2017.09-1-8e67d58_arm64.deb
+MD5sum: f3ae9934aa1fe99baef38473cc75e83c
+SHA1: e9bf0a06bd68f0d5ac9a4ad632c027ad4a21ec4d
+SHA256: 903828e6164bc88e703b3f740f1b619471a1bf915941f4d265da59b8d601f2be
+SHA512: b71396585f9324ae428cdac035a6382daf243317a106441f5c67cc6ed33f24fbeb14aea60464e6f46b398fe4e32ffce776245457ead7232eeffd1d652eee5c0a
+Size: 2941556
+
+Package: u-boot-rk3588
+Version: 2017.09-1-77a5f37
+License: GPL-2+
+Vendor: Radxa
+Architecture: arm64
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 8082
+Depends: dthelper
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa U-Boot image for rk3588
+Filename: pool/bullseye/main/u/u-boot-rk3588/u-boot-rk3588_2017.09-1-77a5f37_arm64.deb
+MD5sum: 9413a90a00f3bfa4033d07a564f14a9e
+SHA1: d0762ebcbf875e0f0a88d220dc238e8458fcad37
+SHA256: 43bb4c906c1aa205e72e15978f334c4fb47ae87ed12002bcb1796cff7964e70e
+SHA512: 63ccd6f853dbd9819fb78e370adcaee390c2dd2216244312903301c85e6f6f076e4627cf858fae58ed710a44a31bcd107b8f2432470f254590c89fe2eeea34e5
+Size: 832568
+
+Package: u-boot-rock-3a
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3a
+Filename: pool/bullseye/main/u/u-boot-rock-3a/u-boot-rock-3a_2017.09-1-7927353_all.deb
+MD5sum: 2fce1f9ebf6db46f9ecf3c8ae299f717
+SHA1: 5f2b8e951698b9830a620c7818b9a815da5a39c1
+SHA256: ff3812d9ee1938c0ff09fa0c6554b6461e640847d5eb78a8d5b83b8239550617
+SHA512: 5e03e1b4186671f90bdd84f87a5885fdd505a6403b206464def5dadb70b9f7ca0370466bbc33bb866756f6a85aa038b67e43dbce625de42879282ef70fec3701
+Size: 1096
+
+Package: u-boot-rock-3b
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Conflicts: u-boot-rock-3c
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3b
+Filename: pool/bullseye/main/u/u-boot-rock-3b/u-boot-rock-3b_2017.09-1-7927353_all.deb
+MD5sum: 60f47eda5598325783b20db1031f4a63
+SHA1: 85dd2780c7a13865a8bd496704cdd61e79388959
+SHA256: 603f84a45a2812469b3a893cd288a6f0e6b1b23437703a62f640a57f6886265e
+SHA512: ff3eea872c3541d742ae5f2aeebe19b32bbbd85c924bcc766e05d665f62e9eb32505b51bb6f5ebdb63a3c060e4000f55485b04a7d36af7d9167f8b896b59354d
+Size: 1100
+
+Package: u-boot-rock-3c
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk356x
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk356x
+Description: Radxa virtual U-Boot package for rock-3c
+Filename: pool/bullseye/main/u/u-boot-rock-3c/u-boot-rock-3c_2017.09-1-7927353_all.deb
+MD5sum: fc2a10b4d23e01a6d5a3be37756637f1
+SHA1: 01b31a5160f1d56a4dc16f7c504c0b2038fdedbb
+SHA256: 91bf8777f13f4c000b0d226b620c5e11b96cb487fa971f4bf0e13519002c14d8
+SHA512: 5065d4e3f290ba14440c0d27c9b812837f201007488e1abbcdb36be0baf4b7af2bc8c8768da334aca4538b41e6bd2bfbeb9d606e1ce9235f04f1058f143db2c8
+Size: 1092
+
+Package: u-boot-rock-4c-plus-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-4c-plus-legacy
+Filename: pool/bullseye/main/u/u-boot-rock-4c-plus-legacy/u-boot-rock-4c-plus-legacy_2017.09-1-e940426_all.deb
+MD5sum: b988db593d021298d7aa6c587cffab6a
+SHA1: a5141b0828586a08fd26228847f06c012668a3fb
+SHA256: dc86c0d0b05c37e8e04c76fcbaeeaf1d59880467a41aa237d12f6f44ec98e066
+SHA512: 7d0344457888afedcf1fd4c32fcb772e09871ddab62e114ed26534223efcad7bf1e3aecbcac965dcb091d4839c7f0d3755610310160d0d356e0cd87641a9146c
+Size: 1132
+
+Package: u-boot-rock-4c-plus
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4c-plus
+Filename: pool/bullseye/main/u/u-boot-rock-4c-plus/u-boot-rock-4c-plus_2022.10-1-7927353_all.deb
+MD5sum: 1b4a893fae66c2604a31b7c87aa7e299
+SHA1: b6665f072de0bebaef97a92cb25c0ff179665807
+SHA256: 02e34a3e5a6d246951a73537909cd0252d2d929e29a34b35a85986d26bc33aee
+SHA512: dc43bd028762bef723c1f1f67d4645b5902f54baf3b4d4b403efe5770846883494b9072d22253d5211dcea26e80dc2221165ed75560b60318dbc8b6d1d0b2f17
+Size: 1108
+
+Package: u-boot-rock-4se
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4se
+Filename: pool/bullseye/main/u/u-boot-rock-4se/u-boot-rock-4se_2022.10-1-7927353_all.deb
+MD5sum: f04474085ea80bc21af50bc9c2737b50
+SHA1: 2ed0ee99d477e0d4d49733e56fff16b06b9d2935
+SHA256: d7ae81164d2293311497f404095cc2939c590904fb56bce696cc08631f384bd3
+SHA512: 1b06d194131f13b3fba7a95d7d5755e23fe8229a7a5ec33c80bfceba338fba8d088827eb8280031b27778ef830928430c1eb000f89a1a42a051d5ee2a37b7728
+Size: 1104
+
+Package: u-boot-rock-4-core-io
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-4-core-io
+Filename: pool/bullseye/main/u/u-boot-rock-4-core-io/u-boot-rock-4-core-io_2022.10-1-7927353_all.deb
+MD5sum: c6bbbed24d97c8844e6e8cb887ef4392
+SHA1: 8a01a9482da50dee522111cf7b3982db0b1c711f
+SHA256: a9cf532a92484c282dc40ed17fdcf930e13695986c4e53380e2cfa472393227f
+SHA512: 3001ecf04641bc85b88e2c8aac842b8051eac790cfd746ef7a5493d226e3a7e82fbaeaf4eeba4ac0e55a7163f44cfa39d414cbb459738bc012fec22641e5526e
+Size: 1120
+
+Package: u-boot-rock-5a
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Conflicts: u-boot-radxa-nx5-io
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for rock-5a
+Filename: pool/bullseye/main/u/u-boot-rock-5a/u-boot-rock-5a_2017.09-1-7927353_all.deb
+MD5sum: 8067ca701f6f5dab62b183776c19d96c
+SHA1: b9098a1e662608432190d12b7de5d144db0fe6c6
+SHA256: 9835da56754504c12a5d0ab758b452078a5ed7c876990bbf60efe60728155c9a
+SHA512: e3c7b7dc2f465133faab8c2ce9e9b4f03c9b238981ba3e25e844e379e71ff34e1ab384f092db12b8996d20e5604fe4187d9c9997327c14a02f36234a73702555
+Size: 1108
+
+Package: u-boot-rock-5b
+Version: 2017.09-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3588
+Conflicts: u-boot-radxa-nx5-io
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3588
+Description: Radxa virtual U-Boot package for rock-5b
+Filename: pool/bullseye/main/u/u-boot-rock-5b/u-boot-rock-5b_2017.09-1-7927353_all.deb
+MD5sum: 99dc23ea1c9cfc01724fd300c0982916
+SHA1: 963198619d763ff36d991d84cd339ee628804fde
+SHA256: 16d8aada72ecda48b27a92c6b14397a3baa8b1f55ab2f9156fb4812f2aa8026c
+SHA512: a1e70ce1fe8411ab205c1a809370163ab8860d7d119400d9545a1210836543700180f05d635d2c7879a9a5e68b9b9a6549da3949e984dedc2e240e410a1684a1
+Size: 1108
+
+Package: u-boot-rock-pi-4a-plus
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4a-plus
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4a-plus/u-boot-rock-pi-4a-plus_2022.10-1-7927353_all.deb
+MD5sum: 9cd5efc2e593336b39bd0381fc6629e2
+SHA1: 6f7bab4e18c7d63d1fbbc00977afbdea734cff12
+SHA256: 4f346135f2dbda896a58897a77fe89d699cef859e6e09c350764e0642b0efdc5
+SHA512: 64aad13c2771ebcb998cc7bc05e7d378a6abc74b18b882df257e91697916e22deb9ed183daf9e02883086d4122ed8a39053e3e744ce0ce9d86cbc5f021feefd0
+Size: 1116
+
+Package: u-boot-rock-pi-4a
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4a
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4a/u-boot-rock-pi-4a_2022.10-1-7927353_all.deb
+MD5sum: 6d83b4be0c201b103543773edfe96802
+SHA1: 0890e2b8a79619a89f27e639a0c66d4a2e200285
+SHA256: ed45e79d5187d32fff8f90e32c88fea14c6f3d8ce4b1f6c4951bcb3b1611719b
+SHA512: 17a03f2c67dfeb495724b1fc826232e2b85174ea41140ae2a2172e29ea06539d5d585f1294666f6f826004b4403731d4a23be912118129bb0dcae02f1f7b7c00
+Size: 1104
+
+Package: u-boot-rock-pi-4b-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-4b-legacy
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4b-legacy/u-boot-rock-pi-4b-legacy_2017.09-1-e940426_all.deb
+MD5sum: 4af5920b0b15e02e480cce7c082412dc
+SHA1: 5b81a0032e821216b52c026f6e9687787dd5780c
+SHA256: 3e27137d9b1c8fdd736452c5ce3c846d288617d9c5fe11c391a5c9106f9e3661
+SHA512: fe3dd582eb51b82c6111408b347b672931956fb89f50619876c7f9758cc54563b404840b7769b3f8dc4255e81b23350313db62d4924fa2028f87bf7f95a8b26e
+Size: 1128
+
+Package: u-boot-rock-pi-4b-plus
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4b-plus
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4b-plus/u-boot-rock-pi-4b-plus_2022.10-1-7927353_all.deb
+MD5sum: 5078add5e027bcccaa7ed0b40c93b1c5
+SHA1: 36c6c082fff5bcc42e8d24c3145e0ed59589db0a
+SHA256: 47d05c4de7731ec0bca038cf1b70edd05bdd05d4a271b9d0ee2770706cae4074
+SHA512: b9f5fa102ee2c34894fcdf033bb8dfe99c1beaa8c2e80bd4470e26c6f64321a1f69222a2e80772d101d0e2f61e613529f59f7d536a17bfdce1931a6c3b84c2e7
+Size: 1116
+
+Package: u-boot-rock-pi-4b
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4b
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4b/u-boot-rock-pi-4b_2022.10-1-7927353_all.deb
+MD5sum: c8c40aca4db1c12fbb99fb8bf73d4967
+SHA1: ada345f8aa4fce96668c6d74282e08a3d1c0ba26
+SHA256: 38a65fafdd80170d1407d93b9aae4bcd59aa2651aa00af9c545e28b24e2910aa
+SHA512: 9ccf3411290a5366644c1df7090a7c542959d8773268a18ed5dd277417c2fc7c0dabf4636adbcdd0d3c2ec97cae7734be7d9f2eb5817943284eee98ad5b59306
+Size: 1108
+
+Package: u-boot-rock-pi-4c-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-4c-legacy
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4c-legacy/u-boot-rock-pi-4c-legacy_2017.09-1-e940426_all.deb
+MD5sum: 54afbe0cb310648f456840a67ce6c436
+SHA1: ce9a118f9ecb7d381fcdd5dfabfd9c9b838f45d0
+SHA256: 019674aa7070c9f362e87feab81b671a088b8da7509d7ced436838224cfbbf49
+SHA512: a4adacce8562cce6605f91833dae1b5d0a6da3aca7018168c0ce619bf2a7e0ce1168f92c3a51447c02f315580137274812caa12bdc7f492f822c1a8ca6a6f482
+Size: 1132
+
+Package: u-boot-rock-pi-4c
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-4c
+Filename: pool/bullseye/main/u/u-boot-rock-pi-4c/u-boot-rock-pi-4c_2022.10-1-7927353_all.deb
+MD5sum: 5f6401345f876c963037c33132147e7f
+SHA1: c053beae6fbb471e4678b2aa9c60ec69fd41b61c
+SHA256: 3bc4a27a91ead6b6aa6a08056637ac3835e0cde60ca620fb85dbd7ae75deed76
+SHA512: abe527b28e3af4b96f2551e7f542a082f8a44e393181c928cfbb1bebbad00ed3e45a64ee1d4e67ca13bdf10b6b8301a7bc1368bb9bfdcf30451607fa6dbdda24
+Size: 1108
+
+Package: u-boot-rock-pi-e3
+Version: 2019.10-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3328
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3328
+Description: Radxa virtual U-Boot package for rock-pi-e3
+Filename: pool/bullseye/main/u/u-boot-rock-pi-e3/u-boot-rock-pi-e3_2019.10-1-f60a0f3_all.deb
+MD5sum: 56f4c0b877578add2be006fa93209386
+SHA1: 7ca5cb50b40472d41c269fc1b0c1a7b478d33fac
+SHA256: 9fa277b4b06be325d100eb010299e202f9b5d17f6ecea6959a4a6af603a54ede
+SHA512: f2a03a66652c6abbd3ce72d3465abddc09085e71781a0563c816db1bbca7ba06619ed7247ef57beafa29855cea94cb8b771156b8ad44e9fabc21ab5e1d2b429e
+Size: 1096
+
+Package: u-boot-rock-pi-e-legacy
+Version: 2019.10-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3328
+Conflicts: u-boot-rock-pi-e3
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3328
+Description: Radxa virtual U-Boot package for rock-pi-e-legacy
+Filename: pool/bullseye/main/u/u-boot-rock-pi-e-legacy/u-boot-rock-pi-e-legacy_2019.10-1-f60a0f3_all.deb
+MD5sum: c796c79f25c1fa32ed2e52fd45819282
+SHA1: 0bee72bdc3d11bafdf803fd5d98bd91041816e62
+SHA256: 1c601bdda8bc08d6851327949b955cc756f4e69393d56e7ebe73a8271fad19bc
+SHA512: 5c1c6639d547f027f357d1d63e3445c9ecc230156a27586bf620602bad2c125dd4c4acf92b9387e92c25810e1ca5c3d3120359b95cf9701144f8beb4d73a3181
+Size: 1124
+
+Package: u-boot-rock-pi-e
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-e
+Filename: pool/bullseye/main/u/u-boot-rock-pi-e/u-boot-rock-pi-e_2022.10-1-7927353_all.deb
+MD5sum: d203198a238560f65461e230d7dd8ca6
+SHA1: 20c792ce1bb236912dd2540d5d97a8c0f1fd47d8
+SHA256: 3911fd9c7aa65c9fad64435d9603f37f0ac9db6c985dbdfcef4e64b545176c5e
+SHA512: 4300728094f74e140f16f50c1491915ffea21d7dde19772c2ff0e1f9edf4c80969ca46f7354f0aba0dce8e99e5fa9b30725f0898863ae814a86c725c47a039c3
+Size: 1092
+
+Package: u-boot-rock-pi-n10-legacy
+Version: 2017.09-1-e940426
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3399
+Conflicts: u-boot-rock-pi-n10
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3399
+Description: Radxa virtual U-Boot package for rock-pi-n10-legacy
+Filename: pool/bullseye/main/u/u-boot-rock-pi-n10-legacy/u-boot-rock-pi-n10-legacy_2017.09-1-e940426_all.deb
+MD5sum: 2bef84d6df82740270b0874e52f9b360
+SHA1: a92440584f45c92d7011a05a620e94f8e3da1da5
+SHA256: fe68ea84671f9f991f8b9306c855c190d5d8e2ecf5c4c74c26c4ec613288005e
+SHA512: 02496f5e4fbca7a9b2e0d769c26fd4f3367e468245fe36fb7966acc94e9d414f2e1914bcb57208d2c93889fead0b7304daac29e58e63dfab7d294c369eab5a76
+Size: 1128
+
+Package: u-boot-rock-pi-n10
+Version: 2022.10-1-7927353
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-latest
+Conflicts: u-boot-rock-pi-e
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-latest
+Description: Radxa virtual U-Boot package for rock-pi-n10
+Filename: pool/bullseye/main/u/u-boot-rock-pi-n10/u-boot-rock-pi-n10_2022.10-1-7927353_all.deb
+MD5sum: 6737ec23f4763b3a9672a2b1e7caaeb5
+SHA1: 59ef6e24546ba2b974f0e602e666d01ab358469b
+SHA256: 1b9dfe90ba0b1579cfa5366f52cd4cb320cd00258093a3f822c135577063d92c
+SHA512: c7f1265944a0d314059b0531d8dc90089ab2728cd0521b889605cbef56c00f61e7c631342301804f6bcae40fd57934a38472f10a422834e0ea8986d10d7d67c8
+Size: 1112
+
+Package: u-boot-rock-pi-s-v20
+Version: 2017.09-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3308
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3308
+Description: Radxa virtual U-Boot package for rock-pi-s-v20
+Filename: pool/bullseye/main/u/u-boot-rock-pi-s-v20/u-boot-rock-pi-s-v20_2017.09-1-f60a0f3_all.deb
+MD5sum: 2949d4cfd61746d96ebb280323129910
+SHA1: e5e2efb70b39fc6211e1960a4550f372217d870e
+SHA256: acddfb1dbfa4d25ba457abc1773b1a1358f7405fe0bd5e60c81caaa098f5a692
+SHA512: 685b2cd52a52019fd27e0f3afd22d7d35624bf18a22a3f7a3f50aee9a9754da2dc547405a5b684179a0b050bc1f3519b82ccb47657e40cb293371af23f8d6671
+Size: 1104
+
+Package: u-boot-rock-pi-s
+Version: 2017.09-1-f60a0f3
+License: GPL-2+
+Vendor: Radxa
+Architecture: all
+Maintainer: Radxa <dev@radxa.com>
+Installed-Size: 0
+Depends: u-boot-rk3308
+Conflicts: u-boot-rock-pi-s-v20
+Section: default
+Priority: optional
+Homepage: https://github.com/radxa-pkg/u-boot-rk3308
+Description: Radxa virtual U-Boot package for rock-pi-s
+Filename: pool/bullseye/main/u/u-boot-rock-pi-s/u-boot-rock-pi-s_2017.09-1-f60a0f3_all.deb
+MD5sum: 89819c3676bdbff5be6c95d35899f0ef
+SHA1: bebb90d653077af3090c88b2071513cbca7e51e3
+SHA256: b96f948696d0ea7ceb465b895bb79490e161d6309ca96ac8f4c053a6c968867c
+SHA512: 8fc759f63c3637068449330140646242ca79e8f31aa0219461c06886812b48b1c8d65c49b1578c0c2f9b5502667c296abf4337431a4e25840adf6906561c173d
+Size: 1108
+
+Package: yq
+Version: 4.30.5
+Architecture: arm64
+Maintainer: Roberto Mier Escandón <rmescandon@gmail.com>
+Installed-Size: 9973
+Depends: libc6 (>= 2.17)
+Section: devel
+Priority: optional
+Homepage: https://github.com/mikefarah/yq.git
+Description: lightweight and portable command-line YAML processor
+ .
+ The aim of the project is to be the
+ [jq](https://github.com/stedolan/jq) or sed of yaml files.
+Original-Maintainer: Roberto Mier Escandón <rmescandon@gmail.com>
+Filename: pool/bullseye/main/y/yq/yq_4.30.5_arm64.deb
+MD5sum: bb76127b02c653a8fcab74fa0a31fbcd
+SHA1: 9ec2a6865db93be849c5dcb77de51e75fc532c5c
+SHA256: 376dd74b91440e6c90cdc6f41695165d010fe572a9add8432fc72ee819c7b396
+SHA512: 3ca763f8d41b633799b75139627ac45fe45c49fe819d02f8ff82e4ec83250314d262c526adb506edea53c104acf9f0c1215f54535ab8606ed11cfcd6ed96c610
+Size: 2427624
+

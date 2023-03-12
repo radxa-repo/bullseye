@@ -1,0 +1,56 @@
+Package: task-amlogic
+Source: radxa-profiles
+Version: 0.2.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Section: libs
+Priority: optional
+Description: Metapackages for common Amlogic vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-amlogic_0.2.11_all.deb
+MD5sum: b79a739659785f5fc60e9959167e6ee6
+SHA1: 34b3ccd83d74decabc12e324cad5e479843cf81c
+SHA256: 465ae0b5c985a74f1dce1136e3de18501490bea6811c779d7f245dba85801f0c
+SHA512: f6a6f471573f4fa077fd01d4306925ee074b115abe5608daf0d92e1bc9657165ac545ca75cc70e7a102bfdf3b65c3a97a6c666271116784b7b7518a9529a6ffc
+Size: 2860
+
+Package: task-radxa-zero2
+Source: radxa-profiles
+Version: 0.2.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Depends: task-amlogic
+Section: libs
+Priority: optional
+Description: Metapackages for Radxa ZERO 2
+ This package provides prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-radxa-zero2_0.2.11_all.deb
+MD5sum: 7bdaa3f1a41f13ef52b2eb588af93755
+SHA1: 75b4794258e175f7955a7e2e8a50bf8f070d49ab
+SHA256: 087610461bd472be027e9d25ada9f140b7ec29a369495ed3887bb803a9be3cc2
+SHA512: caad798019b717e218bc7b8231c50a953ed59b018039dfd7e86318eb5baf27101ee3c8b978c8f54d2301d806646087d82539708fddcba03c5be3dea3fccb94b2
+Size: 2868
+
+Package: task-radxa-zero
+Source: radxa-profiles
+Version: 0.2.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Depends: task-amlogic
+Section: libs
+Priority: optional
+Description: Metapackages for Radxa ZERO
+ This package provides prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-radxa-zero_0.2.11_all.deb
+MD5sum: dac0ff2efc89a54979e1d968376b4a96
+SHA1: 5147f9023e81d4bb11112800f883016d443e2022
+SHA256: bcaac8793ed17aea06dae3cafd938574c1a2fdc503efb961d6070afac8d7b87a
+SHA512: a93b5008dbf0be7c1cfbc0587389be56937495ea8a2b21fa7e9632efd6beb70aa6097ca103b600566714c446ee76a15bb8a655d6ba6db2f6ff99079eff0ea247
+Size: 2868
+

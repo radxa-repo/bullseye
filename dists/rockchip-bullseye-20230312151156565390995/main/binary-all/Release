@@ -1,0 +1,9 @@
+Archive: rockchip-bullseye
+Component: main
+Origin: Radxa
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: all
+Date: Sun, 12 Mar 2023 15:11:56 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
