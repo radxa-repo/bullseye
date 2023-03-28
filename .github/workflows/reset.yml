@@ -2,6 +2,9 @@ name: Reset APT repo
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -12,7 +15,6 @@ jobs:
           fetch-depth: 0
       - name: Reset history
         run: |
-          git branch gh-pages || true
-          git switch gh-pages
+          git switch -C gh-pages
           git reset --hard origin/main
           git push --set-upstream origin -f gh-pages
