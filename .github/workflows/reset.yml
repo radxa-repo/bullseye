@@ -1,5 +1,7 @@
 name: Reset APT repo
 on:
+  repository_dispatch:
+    types: [reset_repo]
   workflow_dispatch:
 
 permissions:
