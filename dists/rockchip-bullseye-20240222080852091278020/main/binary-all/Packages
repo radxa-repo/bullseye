@@ -1,0 +1,247 @@
+Package: glmark2-data
+Source: glmark2
+Version: 2022.06~git.3f1104d-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9310
+Recommends: glmark2-drm (>= 2022.06~git.3f1104d-1) | glmark2-wayland (>= 2022.06~git.3f1104d-1) | glmark2-x11 (>= 2022.06~git.3f1104d-1) | glmark2-es2-wayland (>= 2022.06~git.3f1104d-1) | glmark2-es2-drm (>= 2022.06~git.3f1104d-1) | glmark2-es2-x11 (>= 2022.06~git.3f1104d-1)
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+Filename: pool/rockchip-bullseye/main/g/glmark2/glmark2-data_2022.06~git.3f1104d-1_all.deb
+MD5sum: 1f66dfdf9d037c20796d924f7617fc54
+SHA1: 119f2e798b20fc1793ba259bec39a22530109f99
+SHA256: c65d135055a60b0af21901747b7a7959dc192518b72df19ed0d5426fcbdf3290
+SHA512: a46d781d991e2ea7a327b5af06e735027dab94ffa553c6427e3ed3d884602f5224daea84e97e83daf456627475718d2d50cabb7d93e158759a41f834d79cc3a9
+Size: 6588312
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6851
+Suggests: devhelp
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+Filename: pool/rockchip-bullseye/main/v/v4l-utils/libdvbv5-doc_1.20.0-2_all.deb
+MD5sum: 20e620ac6bbc5c040ca196cbf179eaff
+SHA1: a42ed4945dc645c8c50b6824309bc49db7a10cd7
+SHA256: dad198f023ca5dfb767a826331abd85ed83d72a8995c3fd6098ff9259b626a2a
+SHA512: c63aecfa404dc225df0af1533d569e1816f5447716f759337758bbd7225144f53880001c90d0b225b0b0cea30cdc1bee2dd3cc4773a84b49f12485b5803dfa0c
+Size: 1508436
+
+Package: python3-rknnlite2-example
+Source: rknn2
+Version: 1.6.0-1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 50036
+Depends: python3-rknnlite2 (= 1.6.0-1), python3-opencv
+Provides: python3-rknnlite-example
+Section: python
+Priority: optional
+Description: Rockchip RKNN-Toolkit-Lite2 Example
+ This package provides example for Rockchip RKNN-Toolkit-Lite2.
+Filename: pool/rockchip-bullseye/main/r/rknn2/python3-rknnlite2-example_1.6.0-1_all.deb
+MD5sum: a338655b87b6cc34025c1746224eee6d
+SHA1: 1e466f1414c34c894c8fe4ad610e1290f1255837
+SHA256: 7baa0e1ddbca060a9b08f5427042002104d3c0c3b9fc795fbcb27cc6e0f83691
+SHA512: ccba22749fda8933f035b182ba6a9ea1f6c1254c6fd45d529a431a464549a5396bffe40ac802c8d4cd23fb54c6b77ef3be00e24ae11e7092232c1c8bb096064a
+Size: 34758884
+
+Package: radxa-alsa-config
+Version: 0.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 21
+Depends: rockchip-alsa-config
+Section: misc
+Priority: optional
+Description: Radxa specific ALSA configs
+ This package provides Radxa specific ALSA
+ config files.
+Filename: pool/rockchip-bullseye/main/r/radxa-alsa-config/radxa-alsa-config_0.3_all.deb
+MD5sum: 185ad1530c8a9a009f1a985e70c9aec1
+SHA1: aaad0dd09b67e99d16807ef09d100255f42c65c6
+SHA256: d6be173c8de54ebbfe2814db26dd407e5d5e4935b68cbc9168720370f24fcc6d
+SHA512: 6404102f0d9849ec96e115cacf1cf73d4507633c8fd19d21c3e84bb1d0b4471b6dc0d4069ae15bd3e0e464964df7ea01fe81f98a5ff3660592de8fa28493fe31
+Size: 2724
+
+Package: radxa-touchscreen-utils
+Version: 0.3.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 35
+Depends: xinput
+Section: misc
+Priority: optional
+Description: Radxa touchscreen helper
+ This package provides helper scripts to provide better
+ touchscreen behaviour.
+Filename: pool/rockchip-bullseye/main/r/radxa-touchscreen-utils/radxa-touchscreen-utils_0.3.3_all.deb
+MD5sum: 82a48b9912dd00d556192e90e2a7c583
+SHA1: 7a85b5360ff4690e1ec970a22ff9c5d123a63e3b
+SHA256: fbf0632f3c9999d40bddcb1a3c3746ac7eaa1a7533899b6ad4de08994b92ad37
+SHA512: c983dd6f402299db05a0da66490b7fcc04ab20dfb26b1003df0070f76a1f01591b8bf1773dba1f6db27c58bc6a59b12c67d79855a1a0e6e2ba905430d922db2c
+Size: 4064
+
+Package: radxa-xorg-wrapper
+Version: 0.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 19
+Section: misc
+Priority: optional
+Description: Radxa X.Org Wrapper
+ This package provides X.Org wrapper to workaround some
+ display issues on Rockchip platform.
+Filename: pool/rockchip-bullseye/main/r/radxa-xorg-wrapper/radxa-xorg-wrapper_0.1_all.deb
+MD5sum: 51c1f2a13f7d457ae8a4b1a575e40659
+SHA1: 4750e0df9076b74e1a0c508bf45c81aca8636ee9
+SHA256: 9e4d82040e4571739bdca194a12f95677f8688adcd40c7c845ea476c61ce3249
+SHA512: ae516571f962039bc227abef63ce46760d1a432abf43d0913cfaa5a5babeb44d1a5be66c2370f3a1e4b6a4d8a13386ff7a444ed1a6dd2e659cc182c252c8ca24
+Size: 2800
+
+Package: rockchip-alsa-config
+Version: 3.6-1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 85
+Section: misc
+Priority: optional
+Description: Rockchip specific ALSA configs
+ This package provides Rockchip specific ALSA
+ config files.
+Filename: pool/rockchip-bullseye/main/r/rockchip-alsa-config/rockchip-alsa-config_3.6-1_all.deb
+MD5sum: 737a00a5c381e2f1f84545b3c272897b
+SHA1: e119d6b69c84d2526041ebdb8aec2ad3baf6161c
+SHA256: c4b4b69702ab0c01855994ab5c4f44289561b549436554b8cd82c6b4546ec5f5
+SHA512: b5b88c631cfd3b788e193d0ceee04e1431cc95e89546ce86e79146b89f43dfec33ad56a05a6726527d78ffc15710aece4d07207e16f97733ca3a31333911f7ff
+Size: 6552
+
+Package: rockchip-chromium-x11-utils
+Version: 0.1.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 32
+Enhances: chromium-x11
+Section: admin
+Priority: standard
+Description: Support package for Rockchip Chromium
+ This package provide the necessary services to ensure
+ proper functionality of Rockchip Chromium.
+Filename: pool/rockchip-bullseye/main/r/rockchip-chromium-x11-utils/rockchip-chromium-x11-utils_0.1.3_all.deb
+MD5sum: b1fa3731c4526aba9053282ca2edd8d9
+SHA1: a9cfd754a8b8efb13151b5eccaccc7e3c3ffdda2
+SHA256: 307bd9805007e412595bda264afa601ef3f45569ed0620f13b299fbf55706280
+SHA512: 706b0793d0e4091a4ae664c9c7e1155f0560aa4fa7f0481c84201698deb4cf457efe4fac5083189bc88f2abf6029ec7a80cfb4b9688489950caee4b6b9f659ba
+Size: 5316
+
+Package: rockchip-iqfiles-rk356x
+Source: rockchip-iqfiles
+Version: 0.1.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 1108
+Depends: camera-engine-rkaiq
+Section: libs
+Priority: optional
+Description: Additional camera tuning profiles for Rockchip RK356X
+ This package contains additional camera tuning profiles that is not
+ included in the official Rockchip packages.
+Filename: pool/rockchip-bullseye/main/r/rockchip-iqfiles/rockchip-iqfiles-rk356x_0.1.11_all.deb
+MD5sum: ddacf92447f33108b72769db18bbcab7
+SHA1: 9fab10e5879ee5ea6becefd83cfde36397c0c102
+SHA256: 872daa5751b0e1908c25f2232aeef505768dd3af7f05ecfc203591b85410af39
+SHA512: 1016c0d49e22cbc5b3852065186eb6c30c4be87fa38114bada9498b0609de408ec7165310bb26cbf58bb7ffe4304ab206c98a9acc156890a88ec0765230883d7
+Size: 52592
+
+Package: rockchip-iqfiles
+Version: 0.1.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 3640
+Depends: camera-engine-rkaiq | rkisp-engine
+Section: libs
+Priority: optional
+Description: Additional camera tuning profiles for Rockchip SoC
+ This package contains additional camera tuning profiles that is not
+ included in the official Rockchip packages.
+Filename: pool/rockchip-bullseye/main/r/rockchip-iqfiles/rockchip-iqfiles_0.1.11_all.deb
+MD5sum: 475acfc221b22525fa4a3a48aff5f690
+SHA1: 26604644717aa68566e9ff4db75972eb87921776
+SHA256: 5877ba90810b11664d1183883c7492d1a764228103ab7fb481328c70b38818f0
+SHA512: 1fa97a26d220bbf92defc5032c7a22d53f7ab54fe44c6115f0f5857f2a69da80791328b0c0e85c0bd102cd4f91065232dde8813a6ad0466ccf38b87ce937a0b9
+Size: 162808
+
+Package: rockchip-pulseaudio-config
+Version: 0.3.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 27
+Section: libs
+Priority: optional
+Description: Rockchip specific PulseAudio config
+ This package provides Rockchip PulseAudio config.
+Filename: pool/rockchip-bullseye/main/r/rockchip-pulseaudio-config/rockchip-pulseaudio-config_0.3.1_all.deb
+MD5sum: b143e19c46307f8e99a179489621291d
+SHA1: c1aeb801470ebe1a490e4ee7a78207ebd84869d8
+SHA256: 846c6d5683404b968d7e13ead5a9b1843e8254433fa35b9051dec118c1007a6d
+SHA512: 1bb097572e57afd3bbda9f4c62584afb2c69b4b5f9f2ed29dd64291a00cf46ceb774f639df0fd81d7d103cf008ba15e2ce7488b6c70f5ff43d609d943533a062
+Size: 5108
+
+Package: rockchip-udev
+Version: 0.3.0
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 25
+Section: libs
+Priority: optional
+Description: Rockchip specific udev rules
+ This package provides Rockchip specific udev rules.
+Filename: pool/rockchip-bullseye/main/r/rockchip-udev/rockchip-udev_0.3.0_all.deb
+MD5sum: a802daa424de1d8ef962b1a0a7c35e27
+SHA1: f3beb10f7120845a7c0ee6c0f93010bea00719d3
+SHA256: c743de13a6ae27c80ce5882611069a632cee92ae75af5f26ce06c6430e0ac5f0
+SHA512: 6cedbc18fec80e98e3e724e995f62e19198167ceb2146f7fb589a6b1761d7072f641188c18498d43cb1439268c586d0530419118e362d5ab7497fbb6c0fb4daa
+Size: 5320
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.11-1+deb11u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 189
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Filename: pool/rockchip-bullseye/main/x/xorg-server/xserver-common_1.20.11-1+deb11u3_all.deb
+MD5sum: d9477c808de664e1db4a567e9160516f
+SHA1: 7268840f05f51ddd161adce187cc3b47c43c1c20
+SHA256: 4900baca15311d6d2d2705a7aea7880a4998171362defd351b8d5e4cc83b8461
+SHA512: c38ce4db7a96a3e63bc193bb51f1760c2bfad0bde73d4c17320fd8fa36c85150facba0a33b373d8e5b81ab33311099f0be914fabb1c48aad5ada71cacda226de
+Size: 73528
+
