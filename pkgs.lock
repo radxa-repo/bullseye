@@ -1,0 +1,13 @@
+{
+  "camera_engine_rkaiq_rk3588": "bullseye-4",
+  "chromium-x11": "111.0.5563.147-2",
+  "linux-rk2312": "0.1-1",
+  "rockchip-alsa-config": "3.6-2",
+  "rockchip-chromium-x11-utils": "0.1.4",
+  "rockchip-prebuilt": "3.6",
+  "rockchip-pulseaudio-config": "0.3.3",
+  "rockchip-udev": "0.3.3",
+  "rockchip-xserver": "rk3528_linux_release-linux-5.10-gen-rkr6",
+  "vendor-profiles": "0.3.7",
+  "xfce4-screensaver": "4.16.0-1"
+}
