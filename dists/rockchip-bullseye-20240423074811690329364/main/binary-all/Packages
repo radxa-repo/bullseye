@@ -1,0 +1,71 @@
+Package: glmark2-data
+Source: glmark2
+Version: 2022.06~git.3f1104d-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9310
+Recommends: glmark2-drm (>= 2022.06~git.3f1104d-1) | glmark2-wayland (>= 2022.06~git.3f1104d-1) | glmark2-x11 (>= 2022.06~git.3f1104d-1) | glmark2-es2-wayland (>= 2022.06~git.3f1104d-1) | glmark2-es2-drm (>= 2022.06~git.3f1104d-1) | glmark2-es2-x11 (>= 2022.06~git.3f1104d-1)
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+Filename: pool/rockchip-bullseye/main/g/glmark2/glmark2-data_2022.06~git.3f1104d-1_all.deb
+MD5sum: 1f66dfdf9d037c20796d924f7617fc54
+SHA1: 119f2e798b20fc1793ba259bec39a22530109f99
+SHA256: c65d135055a60b0af21901747b7a7959dc192518b72df19ed0d5426fcbdf3290
+SHA512: a46d781d991e2ea7a327b5af06e735027dab94ffa553c6427e3ed3d884602f5224daea84e97e83daf456627475718d2d50cabb7d93e158759a41f834d79cc3a9
+Size: 6588312
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.20.0-2
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6851
+Suggests: devhelp
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+Filename: pool/rockchip-bullseye/main/v/v4l-utils/libdvbv5-doc_1.20.0-2_all.deb
+MD5sum: 20e620ac6bbc5c040ca196cbf179eaff
+SHA1: a42ed4945dc645c8c50b6824309bc49db7a10cd7
+SHA256: dad198f023ca5dfb767a826331abd85ed83d72a8995c3fd6098ff9259b626a2a
+SHA512: c63aecfa404dc225df0af1533d569e1816f5447716f759337758bbd7225144f53880001c90d0b225b0b0cea30cdc1bee2dd3cc4773a84b49f12485b5803dfa0c
+Size: 1508436
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.11-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2346
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Filename: pool/rockchip-bullseye/main/x/xorg-server/xserver-common_1.20.11-1_all.deb
+MD5sum: 2b1a69d5c8d949bb8f777a0789a3fdef
+SHA1: 92af95238ad9478212005ea6df1d4347aff764c2
+SHA256: b718a21c5856714cbb4d8992ca36e755fd0ae9357b8520a8a9f625746f9dbdfc
+SHA512: 77ee87e7eeff1ccd5bb383bf19798e10e28194c33dd8b43952a3a307c2bc247aa17e443599d4e734a17d90f51f90782921f849392b4e20ab27b3692795c29657
+Size: 2283152
+
