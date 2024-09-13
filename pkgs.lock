@@ -7,7 +7,7 @@
   "rockchip-chromium-x11-utils": "0.1.4",
   "rockchip-prebuilt": "3.6",
   "rockchip-pulseaudio-config": "0.3.3",
-  "rockchip-iqfiles": "0.1.15",
+  "rockchip-iqfiles": "0.1.16",
   "rockchip-udev": "0.3.3",
   "rockchip-xserver": "rk3528_linux_release-linux-5.10-gen-rkr6",
   "vendor-profiles": "0.3.10",
