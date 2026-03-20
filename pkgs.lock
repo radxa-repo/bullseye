@@ -4,6 +4,8 @@
   "linux-rk2312": null,
   "linux-rk2410": null,
   "linux-rk2410-nocsf": null,
+  "linux-rk2501": null,
+  "linux-rockchip": "5.10.110-39",
   "rknn2": "1.6.0-2",
   "radxa-desktop-branding": "0.1.7",
   "rockchip-alsa-config": "3.6-2",
