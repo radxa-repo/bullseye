@@ -12,7 +12,7 @@ jobs:
     - name: "Checkout rsdk"
       uses: "actions/checkout@v6"
       with:
-        ref: "cef2dafd49be1c76eb8cca9850a4b05477b8181e"
+        ref: "86b76876893659737a4ea976a7fd78cbee6a9913"
         repository: "RadxaOS-SDK/rsdk"
     - name: "Checkout current repo"
       uses: "actions/checkout@v6"
@@ -51,9 +51,14 @@ jobs:
             "rockchip-bullseye"
         )
         
+        logging=()
+        if [[ "$ACTIONS_STEP_DEBUG" == "true" ]]; then
+            logging+=(--verbose)
+        fi
+        
         pushd .infra-repo
         
-        ../src/bin/rsdk infra-pkg-download "${suites[@]}"
+        ../src/bin/rsdk infra-pkg-download "${logging[@]}" "${suites[@]}"
         ../src/bin/rsdk infra-repo-sync "${suites[@]}"
         export RSDK_REPO_ORIGIN="$(../src/bin/rsdk config infra.repository.origin)"
         
@@ -67,7 +72,7 @@ jobs:
         popd
       shell: "bash"
     - name: "Setup GitHub Pages"
-      uses: "actions/configure-pages@v5"
+      uses: "actions/configure-pages@v6"
     - name: "Upload artifact"
       uses: "actions/upload-pages-artifact@v4"
       with:
@@ -75,7 +80,7 @@ jobs:
     - id: "deploy"
       if: "github.event_name != 'pull_request'"
       name: "Deploy to GitHub Pages"
-      uses: "actions/deploy-pages@v4"
+      uses: "actions/deploy-pages@v5"
     - name: "Download Pages artifact"
       uses: "actions/download-artifact@v8"
       with:
@@ -101,6 +106,7 @@ name: "Publish packages"
   push:
     branches:
     - "main"
+    - "gh-readonly-queue/main/*"
     paths:
     - "pkgs.json"
     - "pkgs.lock"
