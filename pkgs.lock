@@ -8,6 +8,7 @@
   "linux-rockchip": "5.10.110-39",
   "rknn2": "1.6.0-2",
   "radxa-desktop-branding": "0.1.7",
+  "radxa-overlays": "0.2.18",
   "rockchip-alsa-config": "3.6-2",
   "rockchip-chromium-x11-utils": "0.1.4",
   "rockchip-prebuilt": "3.6",
