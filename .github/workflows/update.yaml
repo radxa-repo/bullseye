@@ -10,7 +10,7 @@ jobs:
     - env:
         SECRETS: "${{ toJSON(secrets) }}"
       name: "Secret tests"
-      uses: "actions/github-script@v8"
+      uses: "actions/github-script@v9"
       with:
         script: |
           const secrets = JSON.parse(process.env.SECRETS);
@@ -22,7 +22,7 @@ jobs:
     - name: "Checkout rsdk"
       uses: "actions/checkout@v6"
       with:
-        ref: "86b76876893659737a4ea976a7fd78cbee6a9913"
+        ref: "1a4f68d9cd0f19dbbab33354aa20f3994b6c7290"
         repository: "RadxaOS-SDK/rsdk"
     - name: "Checkout current repo"
       uses: "actions/checkout@v6"
